@@ -1,14 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/navbar.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 export default function Navbar() {
+  const [isMobile, setIsMobile] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  function handleToggle() {
+    setIsOpen(!isOpen);
+  }
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // change breakpoint if necessary
+    };
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return isMobile ? (
+    <MobileNavbar isOpen={isOpen} onToggle={handleToggle} />
+  ) : (
+    <DesktopNavbar />
+  );
+}
+
+function DesktopNavbar() {
   return (
     <nav className="nav">
       <ul>
         <li>
           {" "}
-          <CustomLink to="/home">Home</CustomLink>
+          <CustomLink to="/">Home</CustomLink>
         </li>
         <li>
           {" "}
@@ -20,10 +44,46 @@ export default function Navbar() {
         </li>
         <li className="cc0">
           {" "}
-          <CustomLink to="/CC0">CTM FESTIVAL 2023 - CC0 </CustomLink>{" "}
+          <CustomLink to="/CC0">CTM FESTIVAL
+ 2023 - CC0</CustomLink>{" "}
         </li>
       </ul>
     </nav>
+  );
+}
+
+function MobileNavbar({ isOpen, onToggle }) {
+  return (
+    <div>
+      <button className="hamburger" onClick={onToggle}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      {isOpen && (
+        <button className="close" onClick={onToggle}>
+          X
+        </button>
+      )}
+
+      <nav className={`mobile-nav ${isOpen ? "open" : ""}`}>
+        <ul>
+          <li>
+            <CustomLink to="/">Home</CustomLink>
+          </li>
+          <li>
+            <CustomLink to="/about">About</CustomLink>
+          </li>
+          <li>
+            <CustomLink to="/contact">Contact</CustomLink>
+          </li>
+          <li>
+            <CustomLink to="/CC0">CTM FESTIVAL
+ 2023 - CC0 </CustomLink>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 

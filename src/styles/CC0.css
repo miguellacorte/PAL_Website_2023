@@ -1,0 +1,90 @@
+.cc0-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  overflow: auto;
+}
+
+.cc0-left-intro {
+  overflow: auto;
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 1rem;
+  margin: 5%;
+}
+
+.body-1 {
+  margin: 5%;
+}
+
+.body-2 {
+  margin: 5%;
+}
+
+.body-3 {
+  margin: 5%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.cc0-start-button {
+  display: flex;
+  flex-direction: row;
+  background-color: tomato;
+  position: relative;
+  bottom: 0;
+  padding: 0;
+  height: 10vh;
+  width: 70%;
+}
+
+.cc0-leaflet-download {
+  height: 10vh;
+  width: 30%;
+  padding: 1rem;
+  background-color: lightblue;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  background-color: black;
+  text-align: left;
+  color: white;
+}
+
+.dropdown-menu h1 {
+    display: inline-block;
+  }
+
+.cc0-right-panel {
+  overflow: auto;
+  padding: 1rem;
+  background-color: rgb(167, 17, 137);
+}
+
+@media (max-width: 768px) {
+  .cc0-container {
+    display: block;
+    height: auto;
+  }
+
+  .cc0-left-intro {
+    order: 1;
+  }
+
+  .cc0-right-panel {
+    order: 3;
+  }
+
+  .cc0-start-button {
+    order: 2;
+    width: calc(50vh - 12.5%);
+  }
+}

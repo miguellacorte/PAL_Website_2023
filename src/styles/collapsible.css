@@ -1,0 +1,35 @@
+.collapsible-container {
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .toggle-button {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    background-color: #f5f5f500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .arrow-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .closed {
+    transform: rotate(0deg);
+  }
+  
+  .open {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+  
+  .content {
+    padding: 10px;
+    
+  }
