@@ -44,8 +44,7 @@ function DesktopNavbar() {
         </li>
         <li className="cc0">
           {" "}
-          <CustomLink to="/CC0">CTM FESTIVAL
- 2023 - CC0</CustomLink>{" "}
+          <CustomLink to="/CC0">CTM FESTIVAL 2023 - CC0</CustomLink>{" "}
         </li>
       </ul>
     </nav>
@@ -78,8 +77,7 @@ function MobileNavbar({ isOpen, onToggle }) {
             <CustomLink to="/contact">Contact</CustomLink>
           </li>
           <li>
-            <CustomLink to="/CC0">CTM FESTIVAL
- 2023 - CC0 </CustomLink>
+            <CustomLink to="/CC0">CTM FESTIVAL 2023 - CC0 </CustomLink>
           </li>
         </ul>
       </nav>
