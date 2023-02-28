@@ -7,19 +7,14 @@ function CC0() {
     <div className="cc0-container">
       <div className="cc0-left-intro">
         <div className="header">
-          <img
-            src="public/cc0.png"
-            alt="Image Description"
-            className="CC0-logo"
-          />
-          <p>
-            <span style={{ fontSize: "1.9em" }}>
-              CC0 (Collective Control 0){" "}
+          <img src="/cc0.png" alt="Image Description" className="CC0-logo" />
+
+          <div>
+            <span className="CC0-title-1">CC0 (Collective Control 0) </span>
+            <span className="CC0-title-2">
+              Live Participative Music Installation at CTM festival 2023
             </span>
-            <span style={{ fontSize: "1.2rem" }}>
-              Live Participative Music Installation at CTM festival - 02.2023
-            </span>
-          </p>
+          </div>
         </div>
 
         <h3 className="header-quote">
@@ -29,34 +24,15 @@ function CC0() {
           within the same virtual universe of knowledge.
         </h3>
 
-        <p
-          style={{
-            marginTop: " 1.5%",
-            marginRight: "5%",
-            marginBottom: "2.5%",
-            marginLeft: "5%",
-            fontFamily: "Whyte Trial",
-            fontStyle: "normal",
-            fontSize: "0.9rem",
-            fontWeight: "700",
-            lineHeight: "20px",
-            textAlign: "right",
-            color: "#FFFFFF",
-          }}
-        >
+        <p className="quote-title">
           Collective Intelligence — Pierre Lévy, 1994
         </p>
 
         <p className="body-1">
-          <span style={{ fontFamily: "ABC Whyte Trial", fontSize: "1rem" }}>
-            CC0 (Collective Control 0){" "}
-          </span>
+          <span style={{}}>CC0 (Collective Control 0) </span>
           is a system for live collective composition consisting of three
           different instruments:
-          <span style={{ fontFamily: "ABC Whyte Trial", fontSize: "1rem" }}>
-            {" "}
-            “The Forum, Pendulum, and Pulse”.{" "}
-          </span>
+          <span> “The Forum, Pendulum, and Pulse”. </span>
           These were conceived and developed through an open creative process in
           the shape of a hackathon.
         </p>
@@ -122,11 +98,15 @@ function CC0() {
           />
           <img src="/ctm-logo.png" alt="CTM logo" className="image" />
 
-          <img src="/image003.png" alt="Image Description" className="image" />
+          <img
+            src="/image003.png"
+            alt="Image Description"
+            className="image-berlin"
+          />
           <img
             src="/KSB_Programmlogo_dive_in_EN_horizontal_CMYK.png"
             alt="Image Description"
-            className="image"
+            className="image-senat"
           />
         </div>
 

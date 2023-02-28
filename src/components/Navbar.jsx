@@ -76,8 +76,8 @@ function MobileNavbar({ isOpen, onToggle }) {
           <li>
             <CustomLink to="/contact">Contact</CustomLink>
           </li>
-          <li>
-            <CustomLink to="/CC0">CTM FESTIVAL 2023 - CC0 </CustomLink>
+          <li style= {{textAlign:"center"}}>
+            <CustomLink to="/CC0">CTM FESTIVAL 2023-CC0 </CustomLink>
           </li>
         </ul>
       </nav>
