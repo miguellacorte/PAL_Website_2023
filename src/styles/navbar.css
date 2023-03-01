@@ -103,7 +103,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-weight: normal;
-  z-index: 10009; 
+  z-index: 999999; 
 }
 
 .mobile-nav a {
@@ -162,7 +162,7 @@ body {
   border: none;
   outline: none;
   background-color: transparent;
-  z-index: 103910231231;
+  z-index: 999998;
 }
 
 .hamburger span {
@@ -170,7 +170,7 @@ body {
   background-color: white;
   height: 3px;
   width: 1.3rem;
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .hamburger span:first-child {
@@ -198,7 +198,7 @@ body {
 .close {
   position: absolute;
   top: 0.5rem;
-  right: 0.5rem;
+  left: 26vw;
   color: black;
   font-size:2rem;
   cursor: pointer;

@@ -1,30 +1,35 @@
-import React from 'react'
-import "../styles/home.css"
+import React from "react";
+import "../styles/home.css";
 
 export default function Home() {
   return (
     <div className="home-container">
-  <div className="main-content">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis
-      nibh quis leo rutrum, nec ultrices enim ullamcorper. Donec iaculis neque
-      id felis hendrerit, vel blandit elit luctus.{" "}
-      <span className="inline-image">
-        <img src="/path/to/image.jpg" alt="inline image" />
-      </span>{" "}
-      Nam nec sapien aliquam, sagittis nunc in, cursus odio. In hac habitasse
-      platea dictumst.
-    </p>
-  </div>
-  <div className="green-text">
-    <p>
-      Sed ac sapien nulla.{" "}
-      <span>
-        <a href="#">Click here</a>
-      </span>{" "}
-      to learn more.
-    </p>
-  </div>
-</div>
-  )
+      <div className="main-content">
+        <p>
+          In the midst of a culture of closed creative control, the{" "}
+          <span className="pal" >
+            Participative Audio Lab (PAL)
+          </span>
+          <span style={{ marginLeft: "0.5%" }} className="inline-image">
+            <img src="../logo_1 2.png" alt="inline image" />
+          </span>{" "}
+          is an initiative focused on harvesting a culture of open creation
+          through the development of open source tools for the distribution of
+          participative musical experiences.
+        </p>
+      </div>
+      <div className="green-text">
+        <p>
+          Experience our inauguration project at CTM festival, titled Collective
+          Control 0 (CC0){" "}
+          <span>
+            <a href="#">here</a>
+          </span>
+          <span style={{ width: "0.5%" }} className="inline-arrow">
+            <img src="../Arrow 9.png" alt="inline image" />
+          </span>
+        </p>
+      </div>
+    </div>
+  );
 }
