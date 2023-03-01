@@ -29,7 +29,7 @@ function CC0() {
         </p>
 
         <p className="body-1">
-          <span style={{}}>CC0 (Collective Control 0) </span>
+          <span >CC0 (Collective Control 0) </span>
           is a system for live collective composition consisting of three
           different instruments:
           <span> “The Forum, Pendulum, and Pulse”. </span>
@@ -49,7 +49,7 @@ function CC0() {
             {" "}
             <a
               style={{ color: "#DCFFCF" }}
-              href="https://www.hebbel-am-ufer.de/"
+              href="https://www.hebbel-am-ufer.de/programm/pdetail/participative-audio-lab-collective-control-0"
             >
               HAU2
             </a>{" "}
@@ -59,7 +59,7 @@ function CC0() {
             {" "}
             <a
               style={{ color: "#DCFFCF" }}
-              href="https://www.hebbel-am-ufer.de/"
+              href="https://www.ctm-festival.de/festival-2023/programme/practise/collective-control-0"
             >
               CTM festival 2023.{" "}
             </a>
@@ -122,7 +122,7 @@ function CC0() {
         </div>
 
         <div className="dropdown-menu">
-          <div>
+          <div >
             <h1>CC0 User guide</h1>
             <Collapsible>
               <div className="content">
@@ -163,11 +163,43 @@ function CC0() {
                   </p>
                 </div>
                 <img
-                  src="public/A5 - 28.jpg"
+                  src="/A5 - 28.jpg"
                   alt="Image Description"
                   className="image"
                 />
               </div>
+            </Collapsible>
+          </div>
+          <hr />
+
+          <div >
+            <h1 style = {{top:"12%"}}>development process</h1>
+            <Collapsible >
+              
+            </Collapsible>
+          </div>
+          <hr />
+
+          <div >
+            <h1 style = {{top:"42%"}}>texts</h1>
+            <Collapsible >
+              
+            </Collapsible>
+          </div>
+          <hr />
+
+          <div >
+            <h1 style = {{top:"64%"}}>archive</h1>
+            <Collapsible >
+              
+            </Collapsible>
+          </div>
+          <hr />
+
+          <div >
+            <h1 style = {{top:"82%"}}>credits</h1>
+            <Collapsible >
+              
             </Collapsible>
           </div>
           <hr />

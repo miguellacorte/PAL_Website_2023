@@ -30,22 +30,10 @@ function DesktopNavbar() {
   return (
     <nav className="nav">
       <ul>
-        <li>
-          {" "}
-          <CustomLink to="/">Home</CustomLink>
-        </li>
-        <li>
-          {" "}
-          <CustomLink to="/about">About</CustomLink>
-        </li>
-        <li>
-          {" "}
-          <CustomLink to="/contact">Contact</CustomLink>
-        </li>
-        <li className="cc0">
-          {" "}
-          <CustomLink to="/CC0">CTM FESTIVAL 2023 - CC0</CustomLink>{" "}
-        </li>
+        <CustomLink to="/">Home</CustomLink>
+        <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/contact">Contact</CustomLink>
+        <CustomLink to="/CC0">CTM FESTIVAL 2023 - CC0</CustomLink>
       </ul>
     </nav>
   );
@@ -67,18 +55,10 @@ function MobileNavbar({ isOpen, onToggle }) {
 
       <nav className={`mobile-nav ${isOpen ? "open" : ""}`}>
         <ul>
-          <li>
-            <CustomLink to="/">Home</CustomLink>
-          </li>
-          <li>
-            <CustomLink to="/about">About</CustomLink>
-          </li>
-          <li>
-            <CustomLink to="/contact">Contact</CustomLink>
-          </li>
-          <li style= {{textAlign:"center"}}>
-            <CustomLink to="/CC0">CTM FESTIVAL 2023-CC0 </CustomLink>
-          </li>
+          <CustomLink to="/">Home</CustomLink>
+          <CustomLink to="/about">About</CustomLink>
+          <CustomLink to="/contact">Contact</CustomLink>
+          <CustomLink to="/CC0">CTM FESTIVAL 2023-CC0</CustomLink>
         </ul>
       </nav>
     </div>
