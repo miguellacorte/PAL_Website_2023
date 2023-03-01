@@ -96,7 +96,7 @@ function CC0() {
             alt="Image Description"
             className="image-hau"
           />
-          <img src="/ctm-logo.png" alt="CTM logo" className="image" />
+          <img src="/ctm-logo.png" alt="CTM logo" className="image-ctm" />
 
           <img
             src="/image003.png"
@@ -122,9 +122,9 @@ function CC0() {
         </div>
 
         <div className="dropdown-menu">
-          <Collapsible  title="CC0 User guide">
+          <Collapsible title="CC0 User guide">
             <div className="content">
-              <p className="title" >
+              <p className="title">
                 Each one of these instruments can be accessed in its digital
                 form through this webpage and also in its physical form at HAU2
                 in Berlin within the context of CTM festival 2023.
@@ -178,12 +178,100 @@ function CC0() {
           <hr />
 
           <Collapsible title="credits"></Collapsible>
-          <hr />
-
-  
+          <hr style={{ marginBottom: "0" }} />
         </div>
       </div>
-      <div className="cc0-right-panel">{/* content for right panel */}</div>
+
+      <div className="cc0-right-panel">
+        <div className="container">
+          <div className="images">
+            <div
+              style={{
+                marginLeft: "1%",
+                marginTop: "5%",
+                marginRight: "0",
+                marginBottom: "1%",
+              }}
+            >
+              <img src="/panels_hau.jpg" alt="image1" className="image" />
+              <p className="text-images">Panels</p>
+            </div>
+
+            <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  marginLeft: "1%",
+                  marginTop: "1%",
+                  marginRight: "0",
+                  marginBottom: "1%",
+                }}
+              >
+                <img src="/panel_stratos.jpg" alt="image2" className="image" />
+                <p className="text-images">Image 2</p>
+              </div>
+              <div
+                style={{
+                  marginLeft: "1%",
+                  marginTop: "1%",
+                  marginRight: "0",
+                  marginBottom: "1%",
+                }}
+              >
+                <img src="/IMG_5225 1.jpg" alt="image3" className="image" />
+                <p className="text-images">Imdjajhdjhdss</p>
+              </div>
+            </div>
+
+            <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  marginLeft: "1%",
+                  marginTop: "5%",
+                  marginRight: "0",
+                  marginBottom: "1%",
+                }}
+              >
+                <img
+                  src="/public/IMG_5406 1.jpg"
+                  alt="image2"
+                  className="image"
+                />
+                <p className="text-images">Image 2</p>
+              </div>
+              <div
+                style={{
+                  marginLeft: "1%",
+                  marginTop: "5%",
+                  marginRight: "0",
+                  marginBottom: "1%",
+                }}
+              >
+                <img src="/booklets.jpg" alt="image3" className="image" />
+                <p className="text-images">Imdjajhdjhdss</p>
+              </div>
+            </div>
+
+            <div
+              style={{
+                marginLeft: "1%",
+                marginTop: "5%",
+                marginRight: "0",
+                marginBottom: "1%",
+              }}
+            >
+              <img src="/panels_hau_2.jpg" alt="image1" className="image" />
+              <p className="text-images">Panels</p>
+            </div>
+
+            <div>
+              <img src="public/pendulum_1.jpg" alt="image1" className="image" />
+              <p className="text-images">Panels</p>
+            </div>
+
+            <div className="image"></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
