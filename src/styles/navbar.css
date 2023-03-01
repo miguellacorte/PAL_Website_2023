@@ -162,6 +162,7 @@ body {
   border: none;
   outline: none;
   background-color: transparent;
+  z-index: 103910231231;
 }
 
 .hamburger span {

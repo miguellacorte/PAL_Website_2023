@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/collapsible.css"
+import "../styles/collapsible.css";
 
 const Collapsible = ({ children, title }) => {
   const [open, setOpen] = useState(false);
@@ -10,11 +10,13 @@ const Collapsible = ({ children, title }) => {
 
   return (
     <div className="collapsible-container">
-      <button className="toggle-button" onClick={toggle} >
+      <button className="toggle-button" onClick={toggle}>
+        <div className="dropdown-title">
+          {title}
+        </div>
         <span className={`arrow-icon ${open ? "open" : "closed"}`}>&gt;</span>
-        {title}
       </button>
-      {open && <div className="content"  >{children}</div>}
+      {open && <div className="content">{children}</div>}
     </div>
   );
 };

@@ -29,7 +29,7 @@ function CC0() {
         </p>
 
         <p className="body-1">
-          <span >CC0 (Collective Control 0) </span>
+          <span>CC0 (Collective Control 0) </span>
           is a system for live collective composition consisting of three
           different instruments:
           <span> “The Forum, Pendulum, and Pulse”. </span>
@@ -122,112 +122,65 @@ function CC0() {
         </div>
 
         <div className="dropdown-menu">
-          <div >
-            <h1>CC0 User guide</h1>
-            <Collapsible>
-              <div className="content">
-                <p className="title">
-                  Each one of these instruments can be accessed in its digital
-                  form through this webpage and also in its physical form at
-                  HAU2 in Berlin within the context of CTM festival 2023.
+          <Collapsible  title="CC0 User guide">
+            <div className="content">
+              <p className="title" >
+                Each one of these instruments can be accessed in its digital
+                form through this webpage and also in its physical form at HAU2
+                in Berlin within the context of CTM festival 2023.
+              </p>
+              <div className="description">
+                <h2 className="subtitle">THE FORUM</h2>
+                <p className="text">
+                  The forum is a public domain of reflection. Using a local
+                  network of microphones, the forum takes a breath from you and
+                  stores it in a pool of collective memories which then plays
+                  back in a generative fashion using the multichannel panels as
+                  output.
                 </p>
-                <div className="description">
-                  <h2 className="subtitle">THE FORUM</h2>
-                  <p className="text">
-                    The forum is a public domain of reflection. Using a local
-                    network of microphones, the forum takes a breath from you
-                    and stores it in a pool of collective memories which then
-                    plays back in a generative fashion using the multichannel
-                    panels as output.
-                  </p>
-                </div>
-
-                <div className="description">
-                  <h2 className="subtitle">THE PENDULUM</h2>
-                  <p className="text">
-                    Activated through user action in the physical space, the
-                    pendulum affects the sound of the installation and
-                    conditions the motion of the online version of the
-                    instrument.
-                  </p>
-                </div>
-
-                <div className="description">
-                  <h2 className="subtitle">THE PULSE</h2>
-                  <p className="text">
-                    Pulse is an instrument based on an algorithm for mutual
-                    synchronization, inspired by biological systems and adopted
-                    for sound creation by Stratos Bichakis. Controlled directly
-                    from the website, the pulse conditioned the visuals of the
-                    physical space.
-                  </p>
-                </div>
-                <img
-                  src="/A5 - 28.jpg"
-                  alt="Image Description"
-                  className="image"
-                />
               </div>
-            </Collapsible>
-          </div>
-          <hr />
 
-          <div >
-            <h1 style = {{top:"12%"}}>development process</h1>
-            <Collapsible >
-              
-            </Collapsible>
-          </div>
-          <hr />
+              <div className="description">
+                <h2 className="subtitle">THE PENDULUM</h2>
+                <p className="text">
+                  Activated through user action in the physical space, the
+                  pendulum affects the sound of the installation and conditions
+                  the motion of the online version of the instrument.
+                </p>
+              </div>
 
-          <div >
-            <h1 style = {{top:"42%"}}>texts</h1>
-            <Collapsible >
-              
-            </Collapsible>
-          </div>
-          <hr />
-
-          <div >
-            <h1 style = {{top:"64%"}}>archive</h1>
-            <Collapsible >
-              
-            </Collapsible>
-          </div>
-          <hr />
-
-          <div >
-            <h1 style = {{top:"82%"}}>credits</h1>
-            <Collapsible >
-              
-            </Collapsible>
-          </div>
-          <hr />
-
-          {/* <div className="dropdown-menu-rest">
-            <h1>Development process</h1>
-            <Collapsible >
-              <p>Content that can be hidden or shown.</p>
-            </Collapsible>
-          </div>
-          <hr /> */}
-
-          {/* <h1>Texts</h1>
-          <Collapsible>
-            <p>Content that can be hidden or shown.</p>
+              <div className="description">
+                <h2 className="subtitle">THE PULSE</h2>
+                <p className="text">
+                  Pulse is an instrument based on an algorithm for mutual
+                  synchronization, inspired by biological systems and adopted
+                  for sound creation by Stratos Bichakis. Controlled directly
+                  from the website, the pulse conditioned the visuals of the
+                  physical space.
+                </p>
+              </div>
+              <img
+                src="/A5 - 28.jpg"
+                alt="Image Description"
+                className="image"
+              />
+            </div>
           </Collapsible>
           <hr />
 
-          <h1>Events and recording archive</h1>
-          <Collapsible>
-            <p>Content that can be hidden or shown.</p>
-          </Collapsible>
+          <Collapsible title="development process"></Collapsible>
           <hr />
 
-          <h1>Credits</h1>
-          <Collapsible>
-            <p>Content that can be hidden or shown.</p>
-          </Collapsible>  */}
+          <Collapsible title="events/recordings archive"></Collapsible>
+          <hr />
+
+          <Collapsible title="texts"></Collapsible>
+          <hr />
+
+          <Collapsible title="credits"></Collapsible>
+          <hr />
+
+  
         </div>
       </div>
       <div className="cc0-right-panel">{/* content for right panel */}</div>
