@@ -308,7 +308,6 @@
 .text-images {
   position: relative;
   display: flex;
-  flex-direction: row-reverse;
   bottom: 5px;
   margin: 0;
   right: 0;

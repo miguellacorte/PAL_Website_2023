@@ -194,7 +194,7 @@ function CC0() {
               }}
             >
               <img src="/panels_hau.jpg" alt="image1" className="image" />
-              <p className="text-images">Panels</p>
+              <p className="text-images">"The Forum" panels. Photo by Jamie Rosenberg</p>
             </div>
 
             <div style={{ display: "flex" }}>
@@ -207,7 +207,7 @@ function CC0() {
                 }}
               >
                 <img src="/panel_stratos.jpg" alt="image2" className="image" />
-                <p className="text-images">Image 2</p>
+                <p className="text-images">Panel close-up. Photo by Stratos Bichakis</p>
               </div>
               <div
                 style={{
@@ -218,7 +218,7 @@ function CC0() {
                 }}
               >
                 <img src="/IMG_5225 1.jpg" alt="image3" className="image" />
-                <p className="text-images">Imdjajhdjhdss</p>
+                <p className="text-images">"The Forum" participants. Photo by Stratos Bichakis</p>
               </div>
             </div>
 
@@ -226,46 +226,46 @@ function CC0() {
               <div
                 style={{
                   marginLeft: "1%",
-                  marginTop: "5%",
+                  marginTop: "6%",
                   marginRight: "0",
                   marginBottom: "1%",
                 }}
               >
                 <img
-                  src="/public/IMG_5406 1.jpg"
+                  src="/IMG_5406 1.jpg"
                   alt="image2"
                   className="image"
                 />
-                <p className="text-images">Image 2</p>
+                <p className="text-images">Instrument 2: The Pendulum</p>
               </div>
               <div
                 style={{
                   marginLeft: "1%",
-                  marginTop: "5%",
+                  marginTop: "6%",
                   marginRight: "0",
                   marginBottom: "1%",
                 }}
               >
                 <img src="/booklets.jpg" alt="image3" className="image" />
-                <p className="text-images">Imdjajhdjhdss</p>
+                <p className="text-images">Installation Booklet</p>
               </div>
             </div>
 
             <div
               style={{
                 marginLeft: "1%",
-                marginTop: "5%",
+                marginTop: "6%",
                 marginRight: "0",
                 marginBottom: "1%",
               }}
             >
               <img src="/panels_hau_2.jpg" alt="image1" className="image" />
-              <p className="text-images">Panels</p>
+              <p className="text-images">"The Forum" Panels and "The Bells" visualisation (purple figure in translucent curtain). Photo by Jamie Rosenberg</p>
             </div>
 
             <div>
-              <img src="public/pendulum_1.jpg" alt="image1" className="image" />
-              <p className="text-images">Panels</p>
+              <img src="/pendulum_1.jpg" alt="image1" className="image" />
+              <p className="text-images">The Pendulum. Photo by Jamie Rosenberg</p>
             </div>
 
             <div className="image"></div>
