@@ -7,7 +7,7 @@ function CC0() {
     <div className="cc0-container">
       <div className="cc0-left-intro">
         <div className="header">
-          <img src="/cc0.png" alt="Image Description" className="CC0-logo" />
+          <img src="/images/cc0.png" alt="Image Description" className="CC0-logo" />
 
           <div>
             <span className="CC0-title-1">CC0 (Collective Control 0) </span>
@@ -84,7 +84,7 @@ function CC0() {
             of artistic works.
           </p>
           <img
-            src="/logo_1 2.png"
+            src="/images/logo_1 2.png"
             alt="Image Description"
             className="PAL-logo"
           />
@@ -92,19 +92,19 @@ function CC0() {
 
         <div className="Exhibition-logos">
           <img
-            src="/hau_black 1.png"
+            src="/images/hau_black 1.png"
             alt="Image Description"
             className="image-hau"
           />
-          <img src="/ctm-logo.png" alt="CTM logo" className="image-ctm" />
+          <img src="/images/ctm-logo.png" alt="CTM logo" className="image-ctm" />
 
           <img
-            src="/image003.png"
+            src="/images/image003.png"
             alt="Image Description"
             className="image-berlin"
           />
           <img
-            src="/KSB_Programmlogo_dive_in_EN_horizontal_CMYK.png"
+            src="/images/KSB_Programmlogo_dive_in_EN_horizontal_CMYK.png"
             alt="Image Description"
             className="image-senat"
           />
@@ -112,12 +112,12 @@ function CC0() {
 
         <div className="buttons">
           <div className="cc0-start-button">
-            <img src="/Arrow 6.png" alt="arrow" className="arrow-1" />
+            <img src="/images/Arrow 6.png" alt="arrow" className="arrow-1" />
             <div>ACCESS CC0 HERE </div>
           </div>
           <div className="cc0-leaflet-download">
             <p>Download Installation booklet (PDF) </p>
-            <img src="/Arrow 7.png" alt="arrow" className="arrow-2" />
+            <img src="/images/Arrow 7.png" alt="arrow" className="arrow-2" />
           </div>
         </div>
 
@@ -160,7 +160,7 @@ function CC0() {
                 </p>
               </div>
               <img
-                src="/A5 - 28.jpg"
+                src="/images/A5 - 28.jpg"
                 alt="Image Description"
                 className="image"
               />
@@ -193,7 +193,7 @@ function CC0() {
                 marginBottom: "1%",
               }}
             >
-              <img src="/panels_hau.jpg" alt="image1" className="image" />
+              <img src="/images/panels_hau.jpg" alt="image1" className="image" />
               <p className="text-images">"The Forum" panels. Photo by Jamie Rosenberg</p>
             </div>
 
@@ -206,7 +206,7 @@ function CC0() {
                   marginBottom: "1%",
                 }}
               >
-                <img src="/panel_stratos.jpg" alt="image2" className="image" />
+                <img src="/images/panel_stratos.jpg" alt="image2" className="image" />
                 <p className="text-images">Panel close-up. Photo by Stratos Bichakis</p>
               </div>
               <div
@@ -217,7 +217,7 @@ function CC0() {
                   marginBottom: "1%",
                 }}
               >
-                <img src="/IMG_5225 1.jpg" alt="image3" className="image" />
+                <img src="/images/IMG_5225 1.jpg" alt="image3" className="image" />
                 <p className="text-images">"The Forum" participants. Photo by Stratos Bichakis</p>
               </div>
             </div>
@@ -232,7 +232,7 @@ function CC0() {
                 }}
               >
                 <img
-                  src="/IMG_5406 1.jpg"
+                  src="/images/IMG_5406 1.jpg"
                   alt="image2"
                   className="image"
                 />
@@ -246,7 +246,7 @@ function CC0() {
                   marginBottom: "1%",
                 }}
               >
-                <img src="/booklets.jpg" alt="image3" className="image" />
+                <img src="/images/booklets.jpg" alt="image3" className="image" />
                 <p className="text-images">Installation Booklet</p>
               </div>
             </div>
@@ -259,12 +259,12 @@ function CC0() {
                 marginBottom: "1%",
               }}
             >
-              <img src="/panels_hau_2.jpg" alt="image1" className="image" />
+              <img src="/images/panels_hau_2.jpg" alt="image1" className="image" />
               <p className="text-images">"The Forum" Panels and "The Bells" visualisation (purple figure in translucent curtain). Photo by Jamie Rosenberg</p>
             </div>
 
             <div>
-              <img src="/pendulum_1.jpg" alt="image1" className="image" />
+              <img src="/images/pendulum_1.jpg" alt="image1" className="image" />
               <p className="text-images">The Pendulum. Photo by Jamie Rosenberg</p>
             </div>
 
