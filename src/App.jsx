@@ -6,6 +6,8 @@ import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
+
+  let baseURL = "/PAL_Website_2023/"
   return (
     <div>
       <Navbar className="Navbar" />
