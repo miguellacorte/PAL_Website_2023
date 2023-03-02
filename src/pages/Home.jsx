@@ -11,7 +11,7 @@ export default function Home() {
             Participative Audio Lab (PAL)
           </span>
           <span style={{ marginLeft: "0.5%" }} className="inline-image">
-            <img src="../images/logo_1 2.png" alt="inline image" />
+            <img src="./images/logo_1 2.png" alt="inline image" />
           </span>{" "}
           is an initiative focused on harvesting a culture of open creation
           through the development of open source tools for the distribution of
