@@ -26,7 +26,7 @@ export default function Home() {
             <a href="#">here</a>
           </span>
           <span  >
-            <img className="inline-arrow" src="../images/Arrow 9.png" alt="inline arrow" />
+            <img className="inline-arrow" src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow 9.png" alt="inline arrow" />
           </span>
         </p>
       </div>
