@@ -18,6 +18,11 @@
   src: url("../fonts/ABCWhyteInktrapMono-Regular-Trial.woff2");
 }
 
+.top-wide-container{
+  width: 100vh;
+  height: 100vh;
+}
+
 .cc0-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
