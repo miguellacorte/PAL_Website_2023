@@ -12,7 +12,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-left: 6%;
 }
 
@@ -28,6 +28,12 @@ body {
   font-weight: 400;
   font-size: 2.5vw;
   line-height: 2.5vw;
+  margin-bottom: 0;
+}
+
+.moreinfo {
+  margin-top: 2%;
+  font-size: 1.5vw  !important;
 }
 
 .inline-image {
@@ -78,19 +84,23 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 6%;
+    margin-top: 1%;
     margin-left: 10%;
   }
 
   .main-content {
     width: 90%;
-    padding: 1rem;
+    padding: 0.5rem;
     color: white;
   }
 
   .main-content p {
     font-size: 7vw;
     line-height: 7vw;
+  }
+
+  .moreinfo {
+    font-size: 3vw !important;
   }
 
   .pal {

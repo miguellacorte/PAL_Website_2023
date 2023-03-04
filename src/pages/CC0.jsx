@@ -195,8 +195,9 @@ function CC0() {
                       <span>
                         <img
                           className="inline-arrow"
-                          src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow 10.png"
+                          src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow%2010.png"
                           alt="inline arrow"
+                      
                         />
                       </span>
                     </a>{" "}
