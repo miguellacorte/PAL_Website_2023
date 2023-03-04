@@ -5,10 +5,6 @@ import Collapsible from "../components/Collapsible";
 function CC0() {
   return (
     <div>
-      <div className="top-wide-container">
-        <h1></h1>
-      </div>
-
       <div className="cc0-container">
         <div className="cc0-left-intro">
           <div className="header">
@@ -143,64 +139,159 @@ function CC0() {
           </div>
 
           <div className="dropdown-menu">
-            <Collapsible title="CC0 User guide">
-              <div className="content">
-                <p className="title">
-                  Each one of these instruments can be accessed in its digital
-                  form through this webpage and also in its physical form at
-                  HAU2 in Berlin within the context of CTM festival 2023.
-                </p>
-                <div className="description">
-                  <h2 className="subtitle">THE FORUM</h2>
-                  <p className="text">
-                    The forum is a public domain of reflection. Using a local
-                    network of microphones, the forum takes a breath from you
-                    and stores it in a pool of collective memories which then
-                    plays back in a generative fashion using the multichannel
-                    panels as output.
+            <div className="dropdowns">
+              <Collapsible title="CC0 User guide">
+                <div className="content">
+                  <p className="title">
+                    Each one of these instruments can be accessed in its digital
+                    form through this webpage and also in its physical form at
+                    HAU2 in Berlin within the context of CTM festival 2023.
+                  </p>
+                  <div className="description">
+                    <h2 className="subtitle">THE FORUM</h2>
+                    <p className="text">
+                      The forum is a public domain of reflection. Using a local
+                      network of microphones, the forum takes a breath from you
+                      and stores it in a pool of collective memories which then
+                      plays back in a generative fashion using the multichannel
+                      panels as output.
+                    </p>
+                  </div>
+
+                  <div className="description">
+                    <h2 className="subtitle">THE PENDULUM</h2>
+                    <p className="text">
+                      Activated through user action in the physical space, the
+                      pendulum affects the sound of the installation and
+                      conditions the motion of the online version of the
+                      instrument.
+                    </p>
+                  </div>
+
+                  <div className="description">
+                    <h2 className="subtitle">THE PULSE</h2>
+                    <p className="text">
+                      Pulse is an instrument based on an algorithm for mutual
+                      synchronization, inspired by biological systems and
+                      adopted for sound creation by Stratos Bichakis. Controlled
+                      directly from the website, the pulse conditioned the
+                      visuals of the physical space.
+                    </p>
+                  </div>
+                  <img
+                    src="https://miguellacorte.github.io/PAL_Website_2023/images/A5 - 28.jpg"
+                    alt="Image Description"
+                    className="image"
+                  />
+                </div>
+              </Collapsible>
+              <hr />
+
+              <Collapsible title="development process">
+                <div className="dev-process">
+                  <h1>
+                    <a style={{ color: "white" }} href="https://example.com">
+                      Pt.1 Prototyping sonic institutions with Black Swan
+                      <span>
+                        <img
+                          className="inline-arrow"
+                          src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow 10.png"
+                          alt="inline arrow"
+                        />
+                      </span>
+                    </a>{" "}
+                  </h1>
+                  <p>
+                    {" "}
+                    Black Swan is a Berlin-based collective experimenting in
+                    horizontal and decentralised, infrastructure and governance.
+                    Challenging conventional decision-making and resource
+                    allocation models in the arts and culture sectors, Black
+                    Swan facilitates the development of new artist-led models of
+                    communal support, collaboration, and governance. Through
+                    democratising access to resources and funds – as evidenced
+                    in experiments led at Berlin’s Trust and KW Institute in
+                    2021 – Black Swan is actively developing a more equitable
+                    and democratic cultural ecosystem.
+                  </p>
+                  <p>
+                    Within May 2022, a number of resources were pledged by
+                    various partners, to allow for the realisation of a
+                    music/sound related project. Participants selected via open
+                    call then proposed their own project ideas to the group, or
+                    simply indicated a wish to experiment in collective
+                    decision-making.
+                  </p>
+                  <p>
+                    Using Black Swans’s digital toolkit, including a quadratic
+                    voting application known as Cygnet, participants
+                    collectively decided how to disseminate and allocate the
+                    resources pledged to their projects. By June 2022, after a
+                    voting round utilizing the quadratic voting tool, successful
+                    applications were announced.
+                  </p>
+
+                  <h1>Pt.2 Participative Audio Lab Hackathon.</h1>
+                  <p>
+                    Thanks to the resources pledged by the CTM 2022 x Black Swan
+                    workshop, the Participative Audio Lab (PAL) was then granted
+                    a commission for developing an exhibition at HAU2 festival
+                    within CTM 2023.
+                  </p>
+                  <p>
+                    As part of the fundamental beliefs of PAL in creation as a
+                    collective process, and to further explore the dynamics of
+                    participation and collaboration in real-time scenarios, PAL
+                    decided to open the development process of the exhibition,
+                    including its involving granted resources received by CTM.
+                  </p>
+                  <p>
+                    By November 2022, PAL created an open call for the
+                    development of the exhibition, in the frame of a hackathon.
+                    More specifically, the development of instruments of
+                    collective creation was set as the core structure of the
+                    exhibition; the hackathon leveraged on the newly announced
+                    RNBO tool by Cycling 74 as the core infrastructure for the
+                    instruments to be developed. The Hackathon consisted of four
+                    days and three phases:
+                  </p>
+                  <ul>
+                    <li>
+                      Within the first day, an experience of collective ideation
+                      was set: Through conversations and guided collective
+                      visualisations by the participants, a picture was formed.
+                      Each participant expressed their interest and priorities
+                      of development within the hackathon.
+                    </li>
+                    <li>
+                      By the second day, participants prepared a prototype of
+                      their instruments and demonstrated them to others.
+                    </li>
+                    <li>
+                      Through the last two days, collective consensus took shape
+                      in different live voting dynamics to decide on the
+                      instruments that would be developed.
+                    </li>
+                  </ul>
+                  <p>
+                    It is within this context where CC0 (Collective Control 0)
+                    was created. CC0 is thus, a collection of tools for
+                    collective creation, developed in turn through a process of
+                    collaboration in the form of a hackathon.
                   </p>
                 </div>
+              </Collapsible>
+              <hr />
 
-                <div className="description">
-                  <h2 className="subtitle">THE PENDULUM</h2>
-                  <p className="text">
-                    Activated through user action in the physical space, the
-                    pendulum affects the sound of the installation and
-                    conditions the motion of the online version of the
-                    instrument.
-                  </p>
-                </div>
+              <Collapsible title="events/recordings archive"></Collapsible>
+              <hr />
 
-                <div className="description">
-                  <h2 className="subtitle">THE PULSE</h2>
-                  <p className="text">
-                    Pulse is an instrument based on an algorithm for mutual
-                    synchronization, inspired by biological systems and adopted
-                    for sound creation by Stratos Bichakis. Controlled directly
-                    from the website, the pulse conditioned the visuals of the
-                    physical space.
-                  </p>
-                </div>
-                <img
-                  src="https://miguellacorte.github.io/PAL_Website_2023/images/A5 - 28.jpg"
-                  alt="Image Description"
-                  className="image"
-                />
-              </div>
-            </Collapsible>
-            <hr />
+              <Collapsible title="texts"></Collapsible>
+              <hr />
 
-            <Collapsible title="development process"></Collapsible>
-            <hr />
-
-            <Collapsible title="events/recordings archive"></Collapsible>
-            <hr />
-
-            <Collapsible title="texts"></Collapsible>
-            <hr />
-
-            <Collapsible title="credits"></Collapsible>
-            <hr style={{ marginBottom: "0" }} />
+              <Collapsible title="credits"></Collapsible>
+              <hr style={{ marginBottom: "0" }} />
+            </div>
           </div>
         </div>
 
