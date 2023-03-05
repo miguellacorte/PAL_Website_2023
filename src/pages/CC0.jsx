@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from 'react';
 import "../styles/CC0.css";
 import Collapsible from "../components/Collapsible";
+import Sketch from "../components/Sketch";
 
 function CC0() {
+  const canvasRef = useRef(null);
   return (
     <div>
       <div className="cc0-container">
@@ -22,38 +24,67 @@ function CC0() {
             </div>
           </div>
 
-          <h3 className="header-quote">
-            No one knows everything, everyone knows something, and all knowledge
-            resides in humanity… New communications systems should provide
-            community members with the means to coordinate their interactions
-            within the same virtual universe of knowledge.
-          </h3>
-
-          <p className="quote-title">
-            Collective Intelligence — Pierre Lévy, 1994
-          </p>
-
-          <p className="body-1">
-            CC0 marks the inauguration of PAL (Participative Audio Lab), a
-            initiative aimed at the development of open-source tools to allow
-            artists to create and distribute their own participative musical
-            experiences. On a broader scale, PAL aims to harvest a culture of
-            open creation.
-          </p>
-
-          <div className="body-2">
-            <p>
-              CC0 was initiated thanks to support from the initiative
-              »Prototyping Sonic Institutions« organised by Black Swan and CTM
-              Festival 2022. Employing decentralised autonomous organisation
-              (DAO) infrastructure and thinking, Black Swan engaged with a
-              number of resource-pledging silent stakeholders to explore new
-              ways of supporting the creation of artistic works.
+          <div className="intro-container">
+            <p className="body-1">
+              <span>CC0 (Collective Control 0) </span>
+              is a system for live collective composition consisting of three
+              different instruments:
+              <span> “The Forum, Pendulum, and Pulse”. </span>
+              These were conceived and developed through an open creative
+              process in the shape of a hackathon.
             </p>
+            <p className="body-1">
+              The installation was designed to enable distributed control to the
+              public through these instruments which directly condition the
+              system’s motion, sound, and structure.{" "}
+            </p>
+
+            <p className="body-1">
+              Each one of these instruments can be accessed in its digital form
+              through this webpage and also in its physical form at{" "}
+              <span>
+                {" "}
+                <a
+                  style={{ color: "#DCFFCF" }}
+                  href="https://www.hebbel-am-ufer.de/programm/pdetail/participative-audio-lab-collective-control-0"
+                >
+                  HAU2
+                </a>{" "}
+              </span>{" "}
+              in Berlin within the context of{" "}
+              <span>
+                {" "}
+                <a
+                  style={{ color: "#DCFFCF" }}
+                  href="https://www.ctm-festival.de/festival-2023/programme/practise/collective-control-0"
+                >
+                  CTM festival 2023.{" "}
+                </a>
+              </span>
+            </p>
+          </div>
+
+          <div className="Exhibition-logos">
             <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/logo_1 2.png"
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/hau_white.png"
               alt="Image Description"
-              className="PAL-logo"
+              className="image-hau"
+            />
+            <img
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/ctm-logo.png"
+              alt="CTM logo"
+              className="image-ctm"
+            />
+
+            <img
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/image003.png"
+              alt="Image Description"
+              className="image-berlin"
+            />
+            <img
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/KSB_Programmlogo_dive_in_DE_horizontal_white_transp_0.png"
+              alt="Image Description"
+              className="image-senat"
             />
           </div>
 
@@ -234,67 +265,19 @@ function CC0() {
         </div>
 
         <div className="cc0-right-panel">
-          <p className="body-1">
-            <span>CC0 (Collective Control 0) </span>
-            is a system for live collective composition consisting of three
-            different instruments:
-            <span> “The Forum, Pendulum, and Pulse”. </span>
-            These were conceived and developed through an open creative process
-            in the shape of a hackathon.
-          </p>
-          <p className="body-1">
-            The installation was designed to enable distributed control to the
-            public through these instruments which directly condition the
-            system’s motion, sound, and structure.{" "}
-          </p>
+          
+            <Sketch canvasRef={canvasRef}></Sketch>
+         
+          <h3 className="header-quote">
+            No one knows everything, everyone knows something, and all knowledge
+            resides in humanity… New communications systems should provide
+            community members with the means to coordinate their interactions
+            within the same virtual universe of knowledge.
+          </h3>
 
-          <p className="body-1">
-            Each one of these instruments can be accessed in its digital form
-            through this webpage and also in its physical form at{" "}
-            <span>
-              {" "}
-              <a
-                style={{ color: "#DCFFCF" }}
-                href="https://www.hebbel-am-ufer.de/programm/pdetail/participative-audio-lab-collective-control-0"
-              >
-                HAU2
-              </a>{" "}
-            </span>{" "}
-            in Berlin within the context of{" "}
-            <span>
-              {" "}
-              <a
-                style={{ color: "#DCFFCF" }}
-                href="https://www.ctm-festival.de/festival-2023/programme/practise/collective-control-0"
-              >
-                CTM festival 2023.{" "}
-              </a>
-            </span>
+          <p className="quote-title">
+            Collective Intelligence — Pierre Lévy, 1994
           </p>
-
-          <div className="Exhibition-logos">
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/hau_white.png"
-              alt="Image Description"
-              className="image-hau"
-            />
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/ctm-logo.png"
-              alt="CTM logo"
-              className="image-ctm"
-            />
-
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/image003.png"
-              alt="Image Description"
-              className="image-berlin"
-            />
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/KSB_Programmlogo_dive_in_DE_horizontal_white_transp_0.png"
-              alt="Image Description"
-              className="image-senat"
-            />
-          </div>
           <div className="container">
             <div className="images">
               <div
@@ -417,6 +400,29 @@ function CC0() {
 
               <div className="image"></div>
             </div>
+          </div>
+          <p className="body-1">
+            CC0 marks the inauguration of PAL (Participative Audio Lab), a
+            initiative aimed at the development of open-source tools to allow
+            artists to create and distribute their own participative musical
+            experiences. On a broader scale, PAL aims to harvest a culture of
+            open creation.
+          </p>
+
+          <div className="body-2">
+            <p>
+              CC0 was initiated thanks to support from the initiative
+              »Prototyping Sonic Institutions« organised by Black Swan and CTM
+              Festival 2022. Employing decentralised autonomous organisation
+              (DAO) infrastructure and thinking, Black Swan engaged with a
+              number of resource-pledging silent stakeholders to explore new
+              ways of supporting the creation of artistic works.
+            </p>
+            <img
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/logo_1 2.png"
+              alt="Image Description"
+              className="PAL-logo"
+            />
           </div>
         </div>
       </div>
