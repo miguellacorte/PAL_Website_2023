@@ -57,30 +57,6 @@ function CC0() {
             />
           </div>
 
-          <div className="Exhibition-logos">
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/hau_white.png"
-              alt="Image Description"
-              className="image-hau"
-            />
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/ctm-logo.png"
-              alt="CTM logo"
-              className="image-ctm"
-            />
-
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/image003.png"
-              alt="Image Description"
-              className="image-berlin"
-            />
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/KSB_Programmlogo_dive_in_DE_horizontal_white_transp_0.png"
-              alt="Image Description"
-              className="image-senat"
-            />
-          </div>
-
           <div className="buttons">
             <div className="cc0-start-button">
               <img
@@ -295,6 +271,30 @@ function CC0() {
               </a>
             </span>
           </p>
+
+          <div className="Exhibition-logos">
+            <img
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/hau_white.png"
+              alt="Image Description"
+              className="image-hau"
+            />
+            <img
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/ctm-logo.png"
+              alt="CTM logo"
+              className="image-ctm"
+            />
+
+            <img
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/image003.png"
+              alt="Image Description"
+              className="image-berlin"
+            />
+            <img
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/KSB_Programmlogo_dive_in_DE_horizontal_white_transp_0.png"
+              alt="Image Description"
+              className="image-senat"
+            />
+          </div>
           <div className="container">
             <div className="images">
               <div
