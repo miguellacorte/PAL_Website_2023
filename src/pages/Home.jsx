@@ -20,8 +20,11 @@ export default function Home() {
 
         <p className="moreinfo">
           More info on our vision within the{" "}
-          <a style={{color:"white"}} href="https://miguellacorte.github.io/PAL_Website_2023/about">
-            <span >about page.</span>{" "}
+          <a
+            style={{ color: "white" }}
+            href="https://miguellacorte.github.io/PAL_Website_2023/about"
+          >
+            <span>about page.</span>{" "}
           </a>{" "}
         </p>
       </div>

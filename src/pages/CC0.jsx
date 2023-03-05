@@ -34,44 +34,6 @@ function CC0() {
           </p>
 
           <p className="body-1">
-            <span>CC0 (Collective Control 0) </span>
-            is a system for live collective composition consisting of three
-            different instruments:
-            <span> “The Forum, Pendulum, and Pulse”. </span>
-            These were conceived and developed through an open creative process
-            in the shape of a hackathon.
-          </p>
-          <p className="body-1">
-            The installation was designed to enable distributed control to the
-            public through these instruments which directly condition the
-            system’s motion, sound, and structure.{" "}
-          </p>
-
-          <p className="body-1">
-            Each one of these instruments can be accessed in its digital form
-            through this webpage and also in its physical form at{" "}
-            <span>
-              {" "}
-              <a
-                style={{ color: "#DCFFCF" }}
-                href="https://www.hebbel-am-ufer.de/programm/pdetail/participative-audio-lab-collective-control-0"
-              >
-                HAU2
-              </a>{" "}
-            </span>{" "}
-            in Berlin within the context of{" "}
-            <span>
-              {" "}
-              <a
-                style={{ color: "#DCFFCF" }}
-                href="https://www.ctm-festival.de/festival-2023/programme/practise/collective-control-0"
-              >
-                CTM festival 2023.{" "}
-              </a>
-            </span>
-          </p>
-
-          <p className="body-1">
             CC0 marks the inauguration of PAL (Participative Audio Lab), a
             initiative aimed at the development of open-source tools to allow
             artists to create and distribute their own participative musical
@@ -97,7 +59,7 @@ function CC0() {
 
           <div className="Exhibition-logos">
             <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/hau_black 1.png"
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/hau_white.png"
               alt="Image Description"
               className="image-hau"
             />
@@ -113,7 +75,7 @@ function CC0() {
               className="image-berlin"
             />
             <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/KSB_Programmlogo_dive_in_EN_horizontal_CMYK.png"
+              src="https://miguellacorte.github.io/PAL_Website_2023/images/KSB_Programmlogo_dive_in_DE_horizontal_white_transp_0.png"
               alt="Image Description"
               className="image-senat"
             />
@@ -197,7 +159,6 @@ function CC0() {
                           className="inline-arrow"
                           src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow%2010.png"
                           alt="inline arrow"
-                      
                         />
                       </span>
                     </a>{" "}
@@ -297,6 +258,43 @@ function CC0() {
         </div>
 
         <div className="cc0-right-panel">
+          <p className="body-1">
+            <span>CC0 (Collective Control 0) </span>
+            is a system for live collective composition consisting of three
+            different instruments:
+            <span> “The Forum, Pendulum, and Pulse”. </span>
+            These were conceived and developed through an open creative process
+            in the shape of a hackathon.
+          </p>
+          <p className="body-1">
+            The installation was designed to enable distributed control to the
+            public through these instruments which directly condition the
+            system’s motion, sound, and structure.{" "}
+          </p>
+
+          <p className="body-1">
+            Each one of these instruments can be accessed in its digital form
+            through this webpage and also in its physical form at{" "}
+            <span>
+              {" "}
+              <a
+                style={{ color: "#DCFFCF" }}
+                href="https://www.hebbel-am-ufer.de/programm/pdetail/participative-audio-lab-collective-control-0"
+              >
+                HAU2
+              </a>{" "}
+            </span>{" "}
+            in Berlin within the context of{" "}
+            <span>
+              {" "}
+              <a
+                style={{ color: "#DCFFCF" }}
+                href="https://www.ctm-festival.de/festival-2023/programme/practise/collective-control-0"
+              >
+                CTM festival 2023.{" "}
+              </a>
+            </span>
+          </p>
           <div className="container">
             <div className="images">
               <div

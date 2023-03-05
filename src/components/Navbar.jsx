@@ -58,7 +58,7 @@ function MobileNavbar({ isOpen, onToggle }) {
           <CustomLink to="/">Home</CustomLink>
           <CustomLink to="/about">About</CustomLink>
           <CustomLink to="/contact">Contact</CustomLink>
-          <CustomLink to="/CC0">CTM FESTIVAL 2023-CC0</CustomLink>
+          <CustomLink to="/CC0">CC0 (CTM festival 2023)</CustomLink>
         </ul>
       </nav>
     </div>

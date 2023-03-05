@@ -27,7 +27,7 @@
 
 .cc0-left-intro {
   overflow: auto;
-  background-color: #858585;
+  background-color: black;
   margin: 0;
   padding: 0;
 }
@@ -101,7 +101,7 @@
 .body-1 {
   margin-top: 2%;
   margin-right: 5%;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-bottom: 0;
   font-family: "Whyte Inktrap Mono";
   font-style: normal;
