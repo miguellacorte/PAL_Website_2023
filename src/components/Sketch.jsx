@@ -19,7 +19,7 @@ function Sketch() {
         );
 
         let table = p.loadTable(
-          "/src/assets/smolerflights.csv",
+          "/smolerflights.csv",
           "csv",
           "header",
           () => {
