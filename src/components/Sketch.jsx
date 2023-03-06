@@ -1,16 +1,19 @@
 import React, { useEffect, useRef } from "react";
-import p5, { loadTable } from "p5";
+import p5 from "p5";
 
 function Sketch() {
   const canvasRef = useRef(null);
 
   useEffect(() => {
+    // Create new p5 instance
+    const sketchInstance = new p5(sketch, canvasRef.current);
+  
     // Define the p5 sketch function
     function sketch(p) {
       let diameter = p.windowWidth / 3;
       let radius = diameter / 2;
       let filtered = [];
-
+  
       p.setup = () => {
         let cnv = p.createCanvas(
           p.windowWidth / 2 + p.windowWidth / 8 - p.windowWidth / 10,
@@ -18,11 +21,11 @@ function Sketch() {
           p.WEBGL
         );
 
-        let table = p.loadTable(
+        p.loadTable(
           "/smolerflights.csv",
           "csv",
           "header",
-          () => {
+          (table) => {
             var rows = table.getRows();
             let pos = [];
             for (var r = 0; r < rows.length; r++) {
@@ -34,10 +37,10 @@ function Sketch() {
             filtered = dedup(pos);
           }
         );
-
+  
         canvasRef.current = cnv.canvas;
       };
-
+  
       p.draw = () => {
         p.angleMode(p.DEGREES);
         p.rotate(5, p.createVector(0, 0, 1));
@@ -70,6 +73,7 @@ function Sketch() {
         p.rotate(45, yAxis);
         p.ellipse(0, 0, diameter, diameter, 40);
       };
+  
 
       function dedup(arr) {
         return arr.filter((item, i) => arr.indexOf(item) === i);
@@ -78,9 +82,6 @@ function Sketch() {
       // return the setup and draw functions
       return { setup: p.setup, draw: p.draw };
     }
-
-    // Create new p5 instance
-    const sketchInstance = new p5(sketch, canvasRef.current);
 
     // Return a cleanup function to remove the p5 instance when the component unmounts
     return () => {
