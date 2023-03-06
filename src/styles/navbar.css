@@ -69,6 +69,7 @@ body {
   bottom: 50px;
   background-color: black;
   width: 75%;
+  height: 100%;
   padding: 1rem;
   transform: translateX(100%);
   transition: transform 0.17s ease-in-out;
@@ -196,7 +197,7 @@ body {
 /* close icon */
 
 .close {
-  position: absolute;
+  position: fixed;
   top: 0.5rem;
   left: 26vw;
   color: black;

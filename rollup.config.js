@@ -12,5 +12,5 @@ export default {
     nodeResolve(),
     terser(),
   ],
-  external: ['p5'], // add p5 to the external array
+  external: ['p5'], 
 };

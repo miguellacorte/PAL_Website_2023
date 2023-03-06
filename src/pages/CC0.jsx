@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 import "../styles/CC0.css";
 import Collapsible from "../components/Collapsible";
 import Sketch from "../components/Sketch";
@@ -258,16 +258,173 @@ function CC0() {
               <Collapsible title="texts"></Collapsible>
               <hr />
 
-              <Collapsible title="credits"></Collapsible>
+              <Collapsible title="credits">
+                <div>
+                  <div className="lastParagraph">
+                    <p className="body-1">
+                      CC0 marks the inauguration of PAL (Participative Audio
+                      Lab), a initiative aimed at the development of open-source
+                      tools to allow artists to create and distribute their own
+                      participative musical experiences. On a broader scale, PAL
+                      aims to harvest a culture of open creation.
+                    </p>
+                  </div>
+
+                  <div className="body-1" style={{ marginLeft: "2%" }}>
+                    <p>
+                      CC0 was initiated thanks to support from the initiative
+                      <span>
+                        {" "}
+                        <a
+                          style={{ color: "white" }}
+                          href="https://www.ctm-festival.de/festival-2022/programme/practise/prototyping-sonic-institutions"
+                        >
+                          »Prototyping Sonic Institutions«
+                        </a>{" "}
+                      </span>
+                      organised by Black Swan and CTM Festival 2022. Employing
+                      decentralised autonomous organisation (DAO) infrastructure
+                      and thinking, Black Swan engaged with a number of
+                      resource-pledging silent stakeholders to explore new ways
+                      of supporting the creation of artistic works.
+                    </p>
+                    <p>
+                      Special thanks to{" "}
+                      <span>
+                        <a
+                          style={{ color: "white" }}
+                          href="https://factoryberlin.com/about/"
+                        >
+                          Factory Berlin{" "}
+                        </a>
+                      </span>
+                      for granting thee working spacespace.
+                    </p>
+
+                    <p>Special thanks to Haywirez for server infrastructure.</p>
+
+                    <hr />
+                    <div>
+                      <article className="left">
+                        <p>
+                          <span>Initiative, general direction</span> : Miguel La
+                          Corte
+                          <br />
+                          <span>Concept &amp; production</span> : Massimiliano
+                          Cerioni, Miguel La Corte, Martin Lundfall, <br />
+                          Stratos Bichakis, Santiago Burelli
+                        </p>
+                        <p>
+                          <span>Sound Direction</span> : Martin Lundfall
+                          (Pendulum), Massimiliano Cerioni
+                          <br />
+                          (Forum, Pendulum), Stratos Bichakis (Pulse, Perc)
+                          <br />
+                          <span>Web Direction</span> : Attila Haraszti, Martin
+                          Lundfall
+                          <br />
+                          <span>Web app architecture</span> : Attila Haraszti
+                          <br />
+                          <span>Network infrastructure</span> : Attila Haraszti,
+                          Martin Lundfall
+                          <br />
+                          <span>Visuals</span> : Martin Lundfall (Pulse, Perc,
+                          Pendulum)
+                          <br />
+                          <span>Zine</span> : Miguel La Corte
+                          <br />
+                          <span>Texts</span> : Miguel La Corte, Massimiliano
+                          Cerioni
+                          <br />
+                          <span>Installation lighting</span> : Stratos Bichakis
+                        </p>
+                        <br />
+                        <p>
+                          <span>Instruments</span>
+                          <br />
+                        </p>
+                        <ul>
+                          <li>
+                            <p>"Forum" :</p>
+                            <ul>
+                              <li>Martin Lundfall: concept, prouction</li>
+                              <li>
+                                Massimiliano Cerioni: concept, instrument sound
+                                development (RNBO/MAX)
+                              </li>
+                              <li>Miguel La Corte: concept, production.</li>
+                            </ul>
+                          </li>
+                          <li>
+                            <p>“Pulse / Perc” :</p>
+                            <ul>
+                              <li>
+                                Stratos Bichakis: concept, algorithm design
+                                (RNBO/MAX).
+                              </li>
+                              <li>Martin Lundfall: visualisation</li>
+                            </ul>
+                          </li>
+                          <li>
+                            <p>“Pendulum” :</p>
+                            <ul>
+                              <li>
+                                Stratos Bichakis: interaction design &amp;
+                                development.
+                              </li>
+                              <li>
+                                Santiago Burelli: pendulum concept, design &amp;
+                                fabrication
+                              </li>
+                              <li>Martin Lundfall: concept, visualisation</li>
+                              <li>
+                                Massimiliano Cerioni: sound development
+                                (RNBO/MAX)
+                              </li>
+                              <li>
+                                Miguel La Corte: concept, live camera system,
+                                production
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <p />
+                        <br />
+                        <p>
+                          <span>Hackathon Participants</span> : Stratos
+                          Bichakis, Massimiliano Cerioni,
+                          <br />
+                          Philipp Geschwendtner,ShangYunWu,
+                          <br />
+                          Niles Fromm, Mario Scarfiglieri,
+                          <br />
+                          Santiago Burelli, Patricia Calugar, Crcdng.
+                          <br />
+                          <span>Space Modeling</span> : Niles Fromm
+                          <br />
+                          <span>Project documentation</span> : Jamie Rosenberg
+                          <br />
+                          <span>Production Assistance</span> : Mario
+                          Scarfiglieri
+                          <br />
+                          <span>Web development assistance</span> : Parrr Geng
+                          &amp; Carolina Acuña
+                        </p>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </Collapsible>
               <hr style={{ marginBottom: "0" }} />
             </div>
           </div>
         </div>
 
         <div className="cc0-right-panel">
-          
+          <div>
             <Sketch canvasRef={canvasRef}></Sketch>
-         
+          </div>
+
           <h3 className="header-quote">
             No one knows everything, everyone knows something, and all knowledge
             resides in humanity… New communications systems should provide
@@ -400,29 +557,6 @@ function CC0() {
 
               <div className="image"></div>
             </div>
-          </div>
-          <p className="body-1">
-            CC0 marks the inauguration of PAL (Participative Audio Lab), a
-            initiative aimed at the development of open-source tools to allow
-            artists to create and distribute their own participative musical
-            experiences. On a broader scale, PAL aims to harvest a culture of
-            open creation.
-          </p>
-
-          <div className="body-2">
-            <p>
-              CC0 was initiated thanks to support from the initiative
-              »Prototyping Sonic Institutions« organised by Black Swan and CTM
-              Festival 2022. Employing decentralised autonomous organisation
-              (DAO) infrastructure and thinking, Black Swan engaged with a
-              number of resource-pledging silent stakeholders to explore new
-              ways of supporting the creation of artistic works.
-            </p>
-            <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/logo_1 2.png"
-              alt="Image Description"
-              className="PAL-logo"
-            />
           </div>
         </div>
       </div>

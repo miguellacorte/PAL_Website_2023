@@ -1,7 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import p5 from "p5";
 
 function Sketch() {
+  const [isLoaded, setIsLoaded] = useState(false);
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -21,32 +22,32 @@ function Sketch() {
           p.WEBGL
         );
 
-        p.loadTable(
-          "/smolerflights.csv",
-          "csv",
-          "header",
-          (table) => {
-            var rows = table.getRows();
-            let pos = [];
-            for (var r = 0; r < rows.length; r++) {
-              pos.push({
-                lat: rows[r].getNum("from_lat"),
-                lon: rows[r].getNum("from_long"),
-              });
-            }
-            filtered = dedup(pos);
+        p.loadTable("/smolerflights.csv", "csv", "header", (table) => {
+          var rows = table.getRows();
+          let pos = [];
+          for (var r = 0; r < rows.length; r++) {
+            pos.push({
+              lat: rows[r].getNum("from_lat"),
+              lon: rows[r].getNum("from_long"),
+            });
           }
-        );
+
+          filtered = dedup(pos);
+          setIsLoaded(true); // Mark data as loaded
+        });
   
         canvasRef.current = cnv.canvas;
       };
   
       p.draw = () => {
+        if (!isLoaded) {
+          return; // Don't render until data is loaded
+        }
         p.angleMode(p.DEGREES);
         p.rotate(5, p.createVector(0, 0, 1));
         let yAxis = p.createVector(0, 1, 0);
         p.rotate(p.frameCount / 4, yAxis);
-        p.background(0);
+        p.background(255);
         for (var i = 0; i < filtered.length; i++) {
           let lon = filtered[i].lon;
           let lat = filtered[i].lat;
