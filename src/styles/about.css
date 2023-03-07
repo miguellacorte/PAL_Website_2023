@@ -11,6 +11,12 @@
   color: #fefefe;
 }
 
+.title {
+  font-family: "gravityWide", sans-serif;
+  font-size: 2.5vw;
+  text-align: left;
+}
+
 .about-container {
   margin-right: 30%;
   margin-top: 2%;

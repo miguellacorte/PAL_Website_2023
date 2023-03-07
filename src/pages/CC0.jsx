@@ -422,7 +422,6 @@ function CC0() {
 
         <div className="cc0-right-panel">
          
-
           <h3 className="header-quote">
             No one knows everything, everyone knows something, and all knowledge
             resides in humanity… New communications systems should provide
