@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "../styles/CC0.css";
 import Collapsible from "../components/Collapsible";
-import Sketch from "../components/Sketch";
+
 
 function CC0() {
   const canvasRef = useRef(null);
@@ -421,9 +421,7 @@ function CC0() {
         </div>
 
         <div className="cc0-right-panel">
-          <div>
-            <Sketch canvasRef={canvasRef}></Sketch>
-          </div>
+         
 
           <h3 className="header-quote">
             No one knows everything, everyone knows something, and all knowledge

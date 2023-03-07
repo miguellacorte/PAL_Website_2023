@@ -30,15 +30,15 @@ export default function Home() {
       </div>
       <div className="green-text">
         <p>
-          Experience our inauguration project at CTM festival, titled Collective
-          Control 0 (CC0){" "}
+          Experience our inauguration project "Collective
+          Control 0 (CC0)" at CTM festival 2023 {" "}
           <span>
             <a href="#">here</a>
           </span>
           <span>
             <img
               className="inline-arrow"
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow 9.png"
+              src="https://participativeaudiolab.com/images/Arrow 9.png"
               alt="inline arrow"
             />
           </span>

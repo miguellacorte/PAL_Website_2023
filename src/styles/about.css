@@ -1,0 +1,41 @@
+.body-1 p {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 1%;
+  margin-bottom: 0;
+  font-family: "Whyte Inktrap Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3vw;
+  line-height: 2vw;
+  color: #fefefe;
+}
+
+.about-container {
+  margin-right: 30%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 890px) {
+  .about-container {
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+
+  .body-1 p {
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-bottom: 0;
+    font-family: "Whyte Inktrap Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 3.5vw;
+    color: #fefefe;
+  }
+}
