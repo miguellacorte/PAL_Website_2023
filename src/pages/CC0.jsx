@@ -261,7 +261,7 @@ function CC0() {
               <Collapsible title="credits">
                 <div>
                   <div className="lastParagraph">
-                    <p className="body-1">
+                    <p className="body-1" style={{marginLeft:"2%"}}>
                       CC0 marks the inauguration of PAL (Participative Audio
                       Lab), a initiative aimed at the development of open-source
                       tools to allow artists to create and distribute their own
@@ -270,8 +270,8 @@ function CC0() {
                     </p>
                   </div>
 
-                  <div className="body-1" style={{ marginLeft: "2%" }}>
-                    <p>
+                  <div  style={{ marginLeft: "2%", marginTop:"5%" }}>
+                    <p className="body-1">
                       CC0 was initiated thanks to support from the initiative
                       <span>
                         {" "}
@@ -288,7 +288,7 @@ function CC0() {
                       resource-pledging silent stakeholders to explore new ways
                       of supporting the creation of artistic works.
                     </p>
-                    <p>
+                    <p className="body-1">
                       Special thanks to{" "}
                       <span>
                         <a
@@ -299,53 +299,53 @@ function CC0() {
                         </a>
                       </span>
                       for granting thee working spacespace.
-                    </p>
+                    </p  >
 
-                    <p>Special thanks to Haywirez for server infrastructure.</p>
+                    <p className="body-1">Special thanks to Haywirez for server infrastructure.</p>
 
                     <hr />
                     <div>
-                      <article className="left">
-                        <p>
-                          <span>Initiative, general direction</span> : Miguel La
+                      <article >
+                        <p className="body-1" >
+                          <span>Initiative, general direction</span>: Miguel La
                           Corte
                           <br />
-                          <span>Concept &amp; production</span> : Massimiliano
+                          <span>Concept &amp; production</span>: Massimiliano
                           Cerioni, Miguel La Corte, Martin Lundfall, <br />
                           Stratos Bichakis, Santiago Burelli
                         </p>
-                        <p>
-                          <span>Sound Direction</span> : Martin Lundfall
+                        <p className="body-1">
+                          <span>Sound Direction</span>: Martin Lundfall
                           (Pendulum), Massimiliano Cerioni
                           <br />
                           (Forum, Pendulum), Stratos Bichakis (Pulse, Perc)
                           <br />
-                          <span>Web Direction</span> : Attila Haraszti, Martin
+                          <span>Web Direction</span>: Attila Haraszti, Martin
                           Lundfall
                           <br />
-                          <span>Web app architecture</span> : Attila Haraszti
+                          <span>Web app architecture</span>: Attila Haraszti
                           <br />
-                          <span>Network infrastructure</span> : Attila Haraszti,
+                          <span>Network infrastructure</span>: Attila Haraszti,
                           Martin Lundfall
                           <br />
-                          <span>Visuals</span> : Martin Lundfall (Pulse, Perc,
+                          <span>Visuals</span>: Martin Lundfall (Pulse, Perc,
                           Pendulum)
                           <br />
-                          <span>Zine</span> : Miguel La Corte
+                          <span>Zine</span>: Miguel La Corte
                           <br />
-                          <span>Texts</span> : Miguel La Corte, Massimiliano
+                          <span>Texts</span>: Miguel La Corte, Massimiliano
                           Cerioni
                           <br />
-                          <span>Installation lighting</span> : Stratos Bichakis
+                          <span>Installation lighting</span>: Stratos Bichakis
                         </p>
                         <br />
-                        <p>
+                        <p className="body-1">
                           <span>Instruments</span>
                           <br />
                         </p>
-                        <ul>
+                        <ul className="body-1">
                           <li>
-                            <p>"Forum" :</p>
+                            <p className="body-1" style={{fontSize:"4vw", lineHeight:"6VW"}}>"Forum":</p>
                             <ul>
                               <li>Martin Lundfall: concept, prouction</li>
                               <li>
@@ -356,7 +356,7 @@ function CC0() {
                             </ul>
                           </li>
                           <li>
-                            <p>“Pulse / Perc” :</p>
+                            <p className="body-1" style={{fontSize:"4vw", lineHeight:"6VW"}}>“Pulse / Perc”:</p>
                             <ul>
                               <li>
                                 Stratos Bichakis: concept, algorithm design
@@ -366,7 +366,7 @@ function CC0() {
                             </ul>
                           </li>
                           <li>
-                            <p>“Pendulum” :</p>
+                            <p className="body-1" style={{fontSize:"4vw", lineHeight:"6VW"}}>“Pendulum”:</p>
                             <ul>
                               <li>
                                 Stratos Bichakis: interaction design &amp;
@@ -390,8 +390,8 @@ function CC0() {
                         </ul>
                         <p />
                         <br />
-                        <p>
-                          <span>Hackathon Participants</span> : Stratos
+                        <p className="body-1">
+                          <span>Hackathon Participants</span>: Stratos
                           Bichakis, Massimiliano Cerioni,
                           <br />
                           Philipp Geschwendtner,ShangYunWu,
@@ -400,14 +400,14 @@ function CC0() {
                           <br />
                           Santiago Burelli, Patricia Calugar, Crcdng.
                           <br />
-                          <span>Space Modeling</span> : Niles Fromm
+                          <span>Space Modeling</span>: Niles Fromm
                           <br />
-                          <span>Project documentation</span> : Jamie Rosenberg
+                          <span>Project documentation</span>: Jamie Rosenberg
                           <br />
-                          <span>Production Assistance</span> : Mario
+                          <span>Production Assistance</span>: Mario
                           Scarfiglieri
                           <br />
-                          <span>Web development assistance</span> : Parrr Geng
+                          <span>Web development assistance</span>: Parrr Geng
                           &amp; Carolina Acuña
                         </p>
                       </article>

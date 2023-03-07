@@ -110,7 +110,6 @@
   margin-right: 5%;
   margin-left: 1%;
   margin-bottom: 0;
-
 }
 
 .body-1 {
@@ -367,9 +366,16 @@
 
 @media (max-width: 890px) {
   .header-quote {
-    font-size: 2.5vw;
-    line-height: 2.7vw;
-    margin-top: 10%;
+    margin-top: 2% !important;
+  margin-right: 5%;
+  margin-bottom: 0 !important;
+  margin-left: 5%;
+  font-family: "ABC Whyte Inktrap Mono Trial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  color: #fefefe;
   }
 
   .header {
@@ -382,16 +388,35 @@
   }
 
   .body-1 {
-    font-size: 2.3vw;
-    line-height: 2.7vw;
+    margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 1%;
+  margin-bottom: 0;
+  font-family: "Whyte Inktrap Mono";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4vw;
+  line-height: 5vw;
+  color: #fefefe !important;
   }
 
   .body-1 span {
-    font-size: 2.5vw;
+    font-family: ABC Whyte Trial;
+    font-size: 4vw;
+    font-weight: 900;
   }
 
   .body-1 a {
-    font-size: 2vw;
+    margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 1%;
+  margin-bottom: 0;
+  font-family: "Whyte Inktrap Mono";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4vw;
+  line-height: vw;
+  color: #fefefe !important;
   }
 
   .body-2 {
@@ -405,18 +430,19 @@
   }
 
   .CC0-logo {
-    width: 15vw;
+    margin-left: 1%;
+    width: 20vw;
   }
 
   .CC0-title-1 {
-    font-size: 3.3vw;
+    font-size: 4vw;
     margin-right: 5%;
     display: block;
   }
 
   .CC0-title-2 {
     font-size: 2vw;
-    line-height: 2.5vw;
+    line-height: 3vw;
     margin-right: 5%;
     display: block;
   }
@@ -449,9 +475,32 @@
     justify-content: space-between;
   }
 
-  .cc0-left-intro {
+  .dev-process p {
+    font-family: "Whyte Inktrap Mono", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-left: 3%;
   }
 
+  
+
+  .dev-process ul {
+    font-family: "Whyte Inktrap Mono", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-left: 3%;
+  }
+
+  .lastParagraph span {
+    font-family: ABC Whyte Trial;
+    font-size: 4vw;
+    font-weight: 900;
+  }
+ 
   .arrow-1 {
     width: 6vw;
   }
@@ -498,5 +547,6 @@
 
   .text-images {
     font-size: 1.5vw;
+    margin-top: 1%;
   }
 }

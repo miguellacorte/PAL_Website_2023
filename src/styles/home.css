@@ -85,7 +85,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 1%;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 
   .main-content {
@@ -116,7 +116,7 @@ a {
 
   .inline-arrow {
     display: inline-block;
-    width: 5%;
+    width: 4% !important;
   }
 
   .green-text {

@@ -10,23 +10,21 @@ export default function Home() {
           <span className="pal">Participative Audio Lab (PAL)</span>
           <span style={{ marginLeft: "0.5%" }} className="inline-image">
             <img
-              src="https://miguellacorte.github.io/PAL_Website_2023/images/logo_1 2.png"
+              src="https://participativeaudiolab.com/images/logo_1 2.png"
               alt="inline image"
             />
           </span>{" "}
           is an initiative focused on the development of open source tools for
-          the distribution of participative musical experiences.
-        </p>
-
-        <p className="moreinfo">
-          More info on our vision within the{" "}
+          the distribution of participative musical experiences. Learn more about our vision {" "}
           <a
             style={{ color: "white" }}
-            href="https://miguellacorte.github.io/PAL_Website_2023/about"
+            href="https://participativeaudiolab.com/about"
           >
-            <span>about page.</span>{" "}
+            <span>here.</span>{" "}
           </a>{" "}
         </p>
+
+       
       </div>
       <div className="green-text">
         <p>
