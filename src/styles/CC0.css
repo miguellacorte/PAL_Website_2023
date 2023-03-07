@@ -378,7 +378,7 @@
     margin-right: 5%;
     margin-bottom: 0 !important;
     margin-left: 5%;
-    font-family: "ABC Whyte Inktrap Mono Trial";
+    font-family: "Whyte Inktrap Mono";
     font-style: italic;
     font-weight: 400;
     font-size: 2.5vw;
@@ -402,15 +402,15 @@
     margin-bottom: 0;
     font-family: "Whyte Inktrap Mono";
     font-style: normal;
-    font-weight: 900;
-    font-size: 4vw;
-    line-height: 5vw;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: 4vw;
     color: #fefefe !important;
   }
 
   .body-1 span {
-    font-family: ABC Whyte Trial;
-    font-size: 4vw;
+    font-family: "ABC Whyte Trial";
+    font-size: 3vw;
     font-weight: 900;
   }
 
@@ -422,8 +422,8 @@
     font-family: "Whyte Inktrap Mono";
     font-style: normal;
     font-weight: 900;
-    font-size: 4vw;
-    line-height: vw;
+    font-size: 3vw;
+    line-height: 4vw;
     color: #fefefe !important;
   }
 
@@ -510,7 +510,7 @@
   }
 
   .instruments-title{
-    font-size: 4vw !important;
+    font-size: 3vw !important;
     
   }
 
@@ -546,6 +546,7 @@
   }
 
   .cc0-start-button {
+    font-size: 5vw;
     width: 70%;
     height: 12vw !important;
   }

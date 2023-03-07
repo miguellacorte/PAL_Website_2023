@@ -31,7 +31,7 @@ export default function Home() {
           Experience our inauguration project "Collective
           Control 0 (CC0)" at CTM festival 2023 {" "}
           <span>
-            <a href="#">here</a>
+            <a href="https://participativeaudiolab.com/CC0">here</a>
           </span>
           <span>
             <img
