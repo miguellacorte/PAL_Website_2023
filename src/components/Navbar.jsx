@@ -33,8 +33,15 @@ function DesktopNavbar() {
         <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
-        <CustomLink to="/CC0">CTM FESTIVAL 2023 - CC0</CustomLink>
       </ul>
+
+      <div className="navbarRight">
+        <div>
+          <p>LIVE</p>
+        </div>
+
+        <CustomLink to="/CC0">CTM FESTIVAL 2023 - CC0</CustomLink>
+      </div>
     </nav>
   );
 }

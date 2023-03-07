@@ -42,20 +42,14 @@ function CC0() {
             <p className="body-1">
               Each one of these instruments can be accessed in its digital form
               through this webpage and also in its physical form at{" "}
-              <span>
-                {" "}
-                <a
-                  style={{ color: "#DCFFCF" }}
+              <span><a
+                  style={{ color: "white" }}
                   href="https://www.hebbel-am-ufer.de/programm/pdetail/participative-audio-lab-collective-control-0"
-                >
-                  HAU2
-                </a>{" "}
-              </span>{" "}
-              in Berlin within the context of{" "}
+                >HAU2</a></span>in Berlin within the context of{" "}
               <span>
                 {" "}
                 <a
-                  style={{ color: "#DCFFCF" }}
+                  style={{ color: "white" }}
                   href="https://www.ctm-festival.de/festival-2023/programme/practise/collective-control-0"
                 >
                   CTM festival 2023.{" "}
@@ -299,7 +293,7 @@ function CC0() {
                         </a>
                       </span>
                       for granting thee working spacespace.
-                    </p  >
+                    </p>
 
                     <p className="body-1">Special thanks to Haywirez for server infrastructure.</p>
 

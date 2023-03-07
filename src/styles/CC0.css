@@ -83,7 +83,7 @@
   margin-right: 5%;
   margin-bottom: 0 !important;
   margin-left: 5%;
-  font-family: "ABC Whyte Inktrap Mono Trial";
+  font-family: "Whyte Inktrap Mono " !important;
   font-style: italic;
   font-weight: 400;
   font-size: 1vw;
@@ -132,7 +132,7 @@
 }
 
 .body-1 span {
-  font-family: ABC Whyte Trial;
+  font-family: "Whyte Trial", sans-serif;
   font-size: 1.5vw;
   font-weight: 900;
 }
@@ -378,7 +378,7 @@
     margin-right: 5%;
     margin-bottom: 0 !important;
     margin-left: 5%;
-    font-family: "Whyte Inktrap Mono";
+    font-family: "Whyte Inktrap Mono", monospace;
     font-style: italic;
     font-weight: 400;
     font-size: 2.5vw;
@@ -409,8 +409,8 @@
   }
 
   .body-1 span {
-    font-family: "ABC Whyte Trial";
-    font-size: 3vw;
+    font-family: "ABC Whyte Trial", sans-serif !important;
+    font-size: 3vw !important;
     font-weight: 900;
   }
 
@@ -515,8 +515,8 @@
   }
 
   .lastParagraph span {
-    font-family: ABC Whyte Trial;
-    font-size: 4vw;
+    font-family: "Whyte Trial", sans-serif !important;
+    font-size: 4vw !important;
     font-weight: 900;
   }
 
@@ -534,8 +534,8 @@
 
   .intro-container {
     padding: 0;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 3%;
+    margin-left: 5%;
     margin-right: 2%;
   }
 
@@ -543,6 +543,10 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+
+  .inline-arrow{
+    width: 2vw;
   }
 
   .cc0-start-button {
@@ -556,7 +560,7 @@
   }
 
   .dropdown-menu h1 {
-    font-size: 5.5vw;
+    font-size: 4vw !important;
   }
 
   .image {

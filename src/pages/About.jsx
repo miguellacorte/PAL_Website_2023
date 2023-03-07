@@ -91,7 +91,7 @@ export default function About() {
           <div>
             <img
               className="culturalImage"
-              src="/public/images/cultural landscape diagram.png"
+              src="/images/group 3.png"
               alt="cultural landscape"
             />
           </div>
