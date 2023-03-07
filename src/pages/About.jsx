@@ -91,7 +91,7 @@ export default function About() {
           <div>
             <img
               className="culturalImage"
-              src="/images/group 3.png"
+              src="https://www.participativeaudiolab.com/images/Group 3.png"
               alt="cultural landscape"
             />
           </div>
@@ -152,9 +152,15 @@ export default function About() {
           the seeds of cultural surrendering begin to exist parallel to the
           seeds of cultural control, we can begin to harvest an open society
         </p>{" "}
-        <p className="downloadVisGuide"> <span>
-          Download the full Participative Audio Lab vision guide{" "}
-          <a style= {{color:"white"}}href="">here</a></span></p>
+        <p className="downloadVisGuide">
+          {" "}
+          <span>
+            Download the full Participative Audio Lab vision guide{" "}
+            <a style={{ color: "white" }} href="">
+              here
+            </a>
+          </span>
+        </p>
       </div>
     </div>
   );
