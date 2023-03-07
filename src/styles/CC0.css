@@ -378,7 +378,7 @@
     margin-right: 5%;
     margin-bottom: 0 !important;
     margin-left: 5%;
-    font-family: "Whyte Inktrap Mono", monospace;
+    font-family: "Whyte Inktrap Mono", monospace !important;
     font-style: italic;
     font-weight: 400;
     font-size: 2.5vw;
@@ -546,7 +546,7 @@
   }
 
   .inline-arrow{
-    width: 2vw;
+    width: 2vw !important;
   }
 
   .cc0-start-button {

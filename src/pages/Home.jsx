@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -16,12 +17,9 @@ export default function Home() {
           </span>{" "}
           is an initiative focused on the development of open source tools for
           the distribution of participative musical experiences. Learn more about our vision {" "}
-          <a
-            style={{ color: "white" }}
-            href="https://participativeaudiolab.com/about"
-          >
+          <Link to="/about" style={{ color: "white" }}>
             <span>here.</span>{" "}
-          </a>{" "}
+          </Link>{" "}
         </p>
 
        
@@ -31,7 +29,7 @@ export default function Home() {
           Experience our inauguration project "Collective
           Control 0 (CC0)" at CTM festival 2023 {" "}
           <span>
-            <a href="https://participativeaudiolab.com/CC0">here</a>
+            <Link to="/CC0">here</Link>
           </span>
           <span>
             <img
