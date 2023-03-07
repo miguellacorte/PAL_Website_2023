@@ -111,7 +111,7 @@ function CC0() {
             <div className="dropdowns">
               <Collapsible title="CC0 User guide">
                 <div className="content">
-                  <p className="title">
+                  <p className="title-userguide">
                     Each one of these instruments can be accessed in its digital
                     form through this webpage and also in its physical form at
                     HAU2 in Berlin within the context of CTM festival 2023.
@@ -356,7 +356,7 @@ function CC0() {
                             </ul>
                           </li>
                           <li>
-                            <p  >“Pulse / Perc”:</p>
+                            <p className="instruments-title" >“Pulse / Perc”:</p>
                             <ul>
                               <li>
                                 Stratos Bichakis: concept, algorithm design
@@ -366,7 +366,7 @@ function CC0() {
                             </ul>
                           </li>
                           <li>
-                            <p  >“Pendulum”:</p>
+                            <p  className="instruments-title">“Pendulum”:</p>
                             <ul>
                               <li>
                                 Stratos Bichakis: interaction design &amp;

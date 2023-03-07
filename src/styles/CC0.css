@@ -105,7 +105,7 @@
   color: #ffffff;
 }
 
-.lastParagraph{
+.lastParagraph {
   margin-top: 2%;
   margin-right: 5%;
   margin-left: 1%;
@@ -275,6 +275,14 @@
   font-weight: bold;
 }
 
+.title-userguide {
+  margin-top: 0;
+  font-family: "Whyte Trial", sans-serif;
+  font-size: 2.4vw;
+  line-height: 3vw;
+  font-weight: bold;
+}
+
 .subtitle {
   font-family: "Gravity variable normal", sans-serif;
   font-size: 27px;
@@ -367,15 +375,15 @@
 @media (max-width: 890px) {
   .header-quote {
     margin-top: 2% !important;
-  margin-right: 5%;
-  margin-bottom: 0 !important;
-  margin-left: 5%;
-  font-family: "ABC Whyte Inktrap Mono Trial";
-  font-style: italic;
-  font-weight: 400;
-  font-size: 2.5vw;
-  line-height: 3vw;
-  color: #fefefe;
+    margin-right: 5%;
+    margin-bottom: 0 !important;
+    margin-left: 5%;
+    font-family: "ABC Whyte Inktrap Mono Trial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    color: #fefefe;
   }
 
   .header {
@@ -389,15 +397,15 @@
 
   .body-1 {
     margin-top: 2%;
-  margin-right: 5%;
-  margin-left: 1%;
-  margin-bottom: 0;
-  font-family: "Whyte Inktrap Mono";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 4vw;
-  line-height: 5vw;
-  color: #fefefe !important;
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-bottom: 0;
+    font-family: "Whyte Inktrap Mono";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4vw;
+    line-height: 5vw;
+    color: #fefefe !important;
   }
 
   .body-1 span {
@@ -408,15 +416,15 @@
 
   .body-1 a {
     margin-top: 2%;
-  margin-right: 5%;
-  margin-left: 1%;
-  margin-bottom: 0;
-  font-family: "Whyte Inktrap Mono";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 4vw;
-  line-height: vw;
-  color: #fefefe !important;
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-bottom: 0;
+    font-family: "Whyte Inktrap Mono";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4vw;
+    line-height: vw;
+    color: #fefefe !important;
   }
 
   .body-2 {
@@ -475,6 +483,14 @@
     justify-content: space-between;
   }
 
+  .title-userguide {
+    margin-top: 0;
+    font-family: "Whyte Trial", sans-serif;
+    font-size: 4vw;
+    line-height: 5vw;
+    font-weight: bold;
+  }
+
   .dev-process p {
     font-family: "Whyte Inktrap Mono", sans-serif;
     font-style: normal;
@@ -483,8 +499,6 @@
     line-height: 4vw;
     margin-left: 3%;
   }
-
-  
 
   .dev-process ul {
     font-family: "Whyte Inktrap Mono", sans-serif;
@@ -495,17 +509,20 @@
     margin-left: 3%;
   }
 
+  .instruments-title{
+    font-size: 4vw !important;
+    
+  }
+
   .lastParagraph span {
     font-family: ABC Whyte Trial;
     font-size: 4vw;
     font-weight: 900;
   }
- 
+
   .arrow-1 {
     width: 6vw;
   }
-
-  
 
   .cc0-leaflet-download p {
     font-size: 2vw;
