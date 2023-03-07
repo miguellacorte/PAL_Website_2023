@@ -345,7 +345,7 @@ function CC0() {
                         </p>
                         <ul className="body-1">
                           <li>
-                            <p className="body-1" style={{fontSize:"4vw", lineHeight:"6VW"}}>"Forum":</p>
+                            <p className="instruments-title" >"Forum":</p>
                             <ul>
                               <li>Martin Lundfall: concept, prouction</li>
                               <li>
@@ -356,7 +356,7 @@ function CC0() {
                             </ul>
                           </li>
                           <li>
-                            <p className="body-1" style={{fontSize:"4vw", lineHeight:"6VW"}}>“Pulse / Perc”:</p>
+                            <p  >“Pulse / Perc”:</p>
                             <ul>
                               <li>
                                 Stratos Bichakis: concept, algorithm design
@@ -366,7 +366,7 @@ function CC0() {
                             </ul>
                           </li>
                           <li>
-                            <p className="body-1" style={{fontSize:"4vw", lineHeight:"6VW"}}>“Pendulum”:</p>
+                            <p  >“Pendulum”:</p>
                             <ul>
                               <li>
                                 Stratos Bichakis: interaction design &amp;
