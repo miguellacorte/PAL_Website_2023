@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import "../styles/CC0.css";
 import Collapsible from "../components/Collapsible";
 
-
 function CC0() {
   const canvasRef = useRef(null);
   return (
@@ -42,10 +41,12 @@ function CC0() {
             <p className="body-1">
               Each one of these instruments can be accessed in its digital form
               through this webpage and also in its physical form at{" "}
-              <span><a
+              <span>
+                <a
                   style={{ color: "white" }}
                   href="https://www.hebbel-am-ufer.de/programm/pdetail/participative-audio-lab-collective-control-0"
-                >HAU2</a></span>in Berlin within the context of{" "}
+                >
+                  HAU2</a></span>{" "}in Berlin within the context of{" "}
               <span>
                 {" "}
                 <a
@@ -92,12 +93,22 @@ function CC0() {
               <div>ACCESS CC0 HERE </div>
             </div>
             <div className="cc0-leaflet-download">
-              <p>Download Installation booklet (PDF) </p>
-              <img
-                src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow 7.png"
-                alt="arrow"
-                className="arrow-2"
-              />
+              <span>
+                <a href="https://drive.google.com/file/d/1MDCbuckytnbf_UrUxieakvw1SrnaVSDh/view">
+                  {" "}
+                  Download Installation booklet (PDF)
+                </a>
+              </span>
+
+              <span>
+                <a href="https://drive.google.com/file/d/1MDCbuckytnbf_UrUxieakvw1SrnaVSDh/view">
+                  <img
+                    src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow 7.png"
+                    alt="arrow"
+                    className="arrow-2"
+                  />
+                </a>
+              </span>
             </div>
           </div>
 
@@ -255,7 +266,7 @@ function CC0() {
               <Collapsible title="credits">
                 <div>
                   <div className="lastParagraph">
-                    <p className="body-1" style={{marginLeft:"2%"}}>
+                    <p className="body-1" style={{ marginLeft: "2%" }}>
                       CC0 marks the inauguration of PAL (Participative Audio
                       Lab), a initiative aimed at the development of open-source
                       tools to allow artists to create and distribute their own
@@ -264,7 +275,7 @@ function CC0() {
                     </p>
                   </div>
 
-                  <div  style={{ marginLeft: "2%", marginTop:"5%" }}>
+                  <div style={{ marginLeft: "2%", marginTop: "5%" }}>
                     <p className="body-1">
                       CC0 was initiated thanks to support from the initiative
                       <span>
@@ -295,12 +306,14 @@ function CC0() {
                       for granting thee working spacespace.
                     </p>
 
-                    <p className="body-1">Special thanks to Haywirez for server infrastructure.</p>
+                    <p className="body-1">
+                      Special thanks to Haywirez for server infrastructure.
+                    </p>
 
                     <hr />
                     <div>
-                      <article >
-                        <p className="body-1" >
+                      <article>
+                        <p className="body-1">
                           <span>Initiative, general direction</span>: Miguel La
                           Corte
                           <br />
@@ -339,7 +352,7 @@ function CC0() {
                         </p>
                         <ul className="body-1">
                           <li>
-                            <p className="instruments-title" >"Forum":</p>
+                            <p className="instruments-title">"Forum":</p>
                             <ul>
                               <li>Martin Lundfall: concept, prouction</li>
                               <li>
@@ -350,7 +363,7 @@ function CC0() {
                             </ul>
                           </li>
                           <li>
-                            <p className="instruments-title" >“Pulse / Perc”:</p>
+                            <p className="instruments-title">“Pulse / Perc”:</p>
                             <ul>
                               <li>
                                 Stratos Bichakis: concept, algorithm design
@@ -360,7 +373,7 @@ function CC0() {
                             </ul>
                           </li>
                           <li>
-                            <p  className="instruments-title">“Pendulum”:</p>
+                            <p className="instruments-title">“Pendulum”:</p>
                             <ul>
                               <li>
                                 Stratos Bichakis: interaction design &amp;
@@ -385,8 +398,8 @@ function CC0() {
                         <p />
                         <br />
                         <p className="body-1">
-                          <span>Hackathon Participants</span>: Stratos
-                          Bichakis, Massimiliano Cerioni,
+                          <span>Hackathon Participants</span>: Stratos Bichakis,
+                          Massimiliano Cerioni,
                           <br />
                           Philipp Geschwendtner,ShangYunWu,
                           <br />
@@ -398,8 +411,7 @@ function CC0() {
                           <br />
                           <span>Project documentation</span>: Jamie Rosenberg
                           <br />
-                          <span>Production Assistance</span>: Mario
-                          Scarfiglieri
+                          <span>Production Assistance</span>: Mario Scarfiglieri
                           <br />
                           <span>Web development assistance</span>: Parrr Geng
                           &amp; Carolina Acuña
@@ -415,7 +427,6 @@ function CC0() {
         </div>
 
         <div className="cc0-right-panel">
-         
           <h3 className="header-quote">
             No one knows everything, everyone knows something, and all knowledge
             resides in humanity… New communications systems should provide

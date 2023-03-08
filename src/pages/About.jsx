@@ -156,7 +156,7 @@ export default function About() {
           {" "}
           <span>
             Download the full Participative Audio Lab vision guide{" "}
-            <a style={{ color: "white" }} href="">
+            <a style={{ color: "white" }} href="https://drive.google.com/file/d/1MKpdi-qwD2RUAJdxhmgCadQ8jLbc2raZ/view?usp=sharing">
               here
             </a>
           </span>

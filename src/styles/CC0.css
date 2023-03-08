@@ -83,7 +83,7 @@
   margin-right: 5%;
   margin-bottom: 0 !important;
   margin-left: 5%;
-  font-family: "Whyte Inktrap Mono " !important;
+  font-family: "Whyte Inktrap Mono" !important;
   font-style: italic;
   font-weight: 400;
   font-size: 1vw;
@@ -237,12 +237,17 @@
   align-items: center;
 }
 
-.cc0-leaflet-download p {
+.cc0-leaflet-download span {
+  display: flex;
   font-family: "Arial";
   font-style: normal;
   font-size: 1vw;
   text-align: left;
   justify-content: center;
+  color: white;
+}
+
+.cc0-leaflet-download a {
   color: white;
 }
 
@@ -524,8 +529,9 @@
     width: 6vw;
   }
 
-  .cc0-leaflet-download p {
+  .cc0-leaflet-download span {
     font-size: 2vw;
+    line-height: 2.5vw;
   }
 
   .cc0-leaflet-download {
