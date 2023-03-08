@@ -128,7 +128,8 @@ h5 {
   h3 {
     color: #fefefe;
     font-family: "Gravity variable normal";
-    font-size: 3vw;
+    font-size: 4vw;
+    line-height: 4vw;
   }
 
   h5 {

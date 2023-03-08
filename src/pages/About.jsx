@@ -52,12 +52,10 @@ export default function About() {
           an initiative aimed at harvesting a culture of open creation through
           the development of tools for participative music distribution.{" "}
         </p>
-       
-        
       </div>
-      <div  style={{ marginTop:" 6vw",}}>
+      <div style={{ marginTop: " 6vw" }}>
         {" "}
-        <h3 >The vision: harvesting a culture of open creation</h3>
+        <h3>The vision: harvesting a culture of open creation</h3>
         <p className="quote">
           {" "}
           “ We must attribute to music a far more serious and profound
@@ -67,7 +65,7 @@ export default function About() {
         <p style={{ textAlign: "right" }} className="body-1-vision">
           Schopenhauer in The World as Will and Representation.
         </p>
-        <div style={{ marginTop: "5%", display: "flex", alignItems: "center" }}>
+        <div style={{ marginTop: "5%" }}>
           <div>
             <p className="body-1-vision">
               {" "}
@@ -78,19 +76,22 @@ export default function About() {
               capable of speaking a universal language; the language of the
               soul.{" "}
             </p>
-            <p className="body-1-vision">
-              {" "}
-              To find new forms of public music composition, is thus to find new
-              forms of social organization.{" "}
-            </p>
-            <p className="body-1-vision">
-              From music ecologies to cultural structures and finally to general
-              social forms of organization, we can genearate a systematic change
-              in society through systems of participation in music.
-            </p>
           </div>
 
-          <div>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div>
+              <p className="body-1-vision">
+                {" "}
+                To find new forms of public music composition, is thus to find
+                new forms of social organization.{" "}
+              </p>
+              <p className="body-1-vision">
+                From music ecologies to cultural structures and finally to
+                general social forms of organization, we can genearate a
+                systematic change in society through systems of participation in
+                music.
+              </p>
+            </div>
             <img
               className="culturalImage"
               src="https://www.participativeaudiolab.com/images/Group 3.png"
@@ -158,7 +159,10 @@ export default function About() {
           {" "}
           <span>
             Download the full Participative Audio Lab vision guide{" "}
-            <a style={{ color: "white" }} href="https://drive.google.com/file/d/1MKpdi-qwD2RUAJdxhmgCadQ8jLbc2raZ/view?usp=sharing">
+            <a
+              style={{ color: "white" }}
+              href="https://drive.google.com/file/d/1MKpdi-qwD2RUAJdxhmgCadQ8jLbc2raZ/view?usp=sharing"
+            >
               here
             </a>
           </span>
