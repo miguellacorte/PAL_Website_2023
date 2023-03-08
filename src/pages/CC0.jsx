@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "../styles/CC0.css";
 import Collapsible from "../components/Collapsible";
 
+
 function CC0() {
   const canvasRef = useRef(null);
   return (
@@ -449,6 +450,7 @@ function CC0() {
         </div>
 
         <div className="cc0-right-panel">
+
           <h3 className="header-quote">
             No one knows everything, everyone knows something, and all knowledge
             resides in humanity… New communications systems should provide

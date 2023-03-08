@@ -52,10 +52,12 @@ export default function About() {
           an initiative aimed at harvesting a culture of open creation through
           the development of tools for participative music distribution.{" "}
         </p>
-        <h3>The vision: harvesting a culture of open creation</h3>
+       
+        
       </div>
-      <div>
+      <div  style={{ marginTop:" 6vw",}}>
         {" "}
+        <h3 >The vision: harvesting a culture of open creation</h3>
         <p className="quote">
           {" "}
           “ We must attribute to music a far more serious and profound
