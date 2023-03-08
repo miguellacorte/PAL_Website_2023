@@ -46,7 +46,10 @@ function CC0() {
                   style={{ color: "white" }}
                   href="https://www.hebbel-am-ufer.de/programm/pdetail/participative-audio-lab-collective-control-0"
                 >
-                  HAU2</a></span>{" "}in Berlin within the context of{" "}
+                  HAU2
+                </a>
+              </span>{" "}
+              in Berlin within the context of{" "}
               <span>
                 {" "}
                 <a
@@ -85,16 +88,32 @@ function CC0() {
 
           <div className="buttons">
             <div className="cc0-start-button">
-              <img
-                src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow 6.png"
-                alt="arrow"
-                className="arrow-1"
-              />
-              <div>ACCESS CC0 HERE </div>
+              <a href="https://cc0.participativeaudiolab.com">
+                <img
+                  src="https://miguellacorte.github.io/PAL_Website_2023/images/Arrow 6.png"
+                  alt="arrow"
+                  className="arrow-1"
+                />
+              </a>
+
+              <span>
+                <a
+                  href="https://cc0.participativeaudiolab.com"
+                  style={{ color: "black", textDecoration: "none" }}
+                >
+                  {" "}
+                  ACCESS CC0 HERE
+                </a>
+              </span>
             </div>
+
+            
             <div className="cc0-leaflet-download">
               <span>
-                <a href="https://drive.google.com/file/d/1MDCbuckytnbf_UrUxieakvw1SrnaVSDh/view">
+                <a
+                  href="https://drive.google.com/file/d/1MDCbuckytnbf_UrUxieakvw1SrnaVSDh/view"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
                   {" "}
                   Download Installation booklet (PDF)
                 </a>
@@ -164,7 +183,10 @@ function CC0() {
               <Collapsible title="development process">
                 <div className="dev-process">
                   <h1>
-                    <a style={{ color: "white" }} href="https://example.com">
+                    <a
+                      style={{ color: "white" }}
+                      href="https://www.ctm-festival.de/festival-2022/programme/practise/prototyping-sonic-institutions"
+                    >
                       Pt.1 Prototyping sonic institutions with Black Swan
                       <span>
                         <img
