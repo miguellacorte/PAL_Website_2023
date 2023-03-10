@@ -125,9 +125,9 @@
   color: #fefefe;
 }
 
+
 .body-1 a {
   font-size: 1.2vw;
-  line-height: 1rem;
   font-weight: 700;
 }
 
@@ -368,9 +368,9 @@
 
 .text-images {
   position: relative;
+  margin-top: 2%;
   display: flex;
   bottom: 5px;
-  margin: 0;
   right: 0;
   font-size: 1vw;
   font-family: "Whyte Inktrap Mono", monospace;

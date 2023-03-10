@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import "../styles/CC0.css";
 import Collapsible from "../components/Collapsible";
 
-
 function CC0() {
   const canvasRef = useRef(null);
   return (
@@ -26,6 +25,7 @@ function CC0() {
 
           <div className="intro-container">
             <p className="body-1">
+              Marking the inauguration of the Participative Audio Lab,
               <span>CC0 (Collective Control 0) </span>
               is a system for live collective composition consisting of three
               different instruments:
@@ -60,6 +60,20 @@ function CC0() {
                   CTM festival 2023.{" "}
                 </a>
               </span>
+            </p>
+
+            <p className="body-1" style={{}}>
+              CC0 was initiated thanks to support from the initiative
+              <span>
+                {" "}
+                <a
+                  style={{ color: "white" }}
+                  href="https://www.ctm-festival.de/festival-2022/programme/practise/prototyping-sonic-institutions"
+                >
+                  »Prototyping Sonic Institutions«
+                </a>{" "}
+              </span>
+              organised by Black Swan and CTM Festival 2022. 
             </p>
           </div>
 
@@ -108,7 +122,6 @@ function CC0() {
               </span>
             </div>
 
-            
             <div className="cc0-leaflet-download">
               <span>
                 <a
@@ -232,8 +245,8 @@ function CC0() {
                   <p>
                     Thanks to the resources pledged by the CTM 2022 x Black Swan
                     workshop, the Participative Audio Lab (PAL) was then granted
-                    a commission for developing an exhibition at HAU2 festival
-                    within CTM 2023.
+                    a commission for developing an exhibition at HAU2 within the
+                    context of CTM Festival 2023.
                   </p>
                   <p>
                     As part of the fundamental beliefs of PAL in creation as a
@@ -270,11 +283,21 @@ function CC0() {
                       instruments that would be developed.
                     </li>
                   </ul>
+                  <h1>Pt.3 Hackthon outcome: Collective control 0</h1>
                   <p>
                     It is within this context where CC0 (Collective Control 0)
-                    was created. CC0 is thus, a collection of tools for
-                    collective creation, developed in turn through a process of
-                    collaboration in the form of a hackathon.
+                    was created. Through a process of collaboration in the form
+                    of a hackathon, CC0 emerges as a collection of instruments
+                    for collective creation.
+                  </p>
+
+                  <p>
+                    Evoking tools and systems of social organization, 3
+                    instruments were carefully composed to generate its own laws
+                    of action: “The Forum, Pendulum, Pulse and Buffer Zone”. On
+                    top of that, to embody a collective system of care “Memory”
+                    was built through p2p architecture to mirror and register
+                    the live composition.
                   </p>
                 </div>
               </Collapsible>
@@ -288,34 +311,9 @@ function CC0() {
 
               <Collapsible title="credits">
                 <div>
-                  <div className="lastParagraph">
-                    <p className="body-1" style={{ marginLeft: "2%" }}>
-                      CC0 marks the inauguration of PAL (Participative Audio
-                      Lab), a initiative aimed at the development of open-source
-                      tools to allow artists to create and distribute their own
-                      participative musical experiences. On a broader scale, PAL
-                      aims to harvest a culture of open creation.
-                    </p>
-                  </div>
+                  <div className="lastParagraph"></div>
 
                   <div style={{ marginLeft: "2%", marginTop: "5%" }}>
-                    <p className="body-1">
-                      CC0 was initiated thanks to support from the initiative
-                      <span>
-                        {" "}
-                        <a
-                          style={{ color: "white" }}
-                          href="https://www.ctm-festival.de/festival-2022/programme/practise/prototyping-sonic-institutions"
-                        >
-                          »Prototyping Sonic Institutions«
-                        </a>{" "}
-                      </span>
-                      organised by Black Swan and CTM Festival 2022. Employing
-                      decentralised autonomous organisation (DAO) infrastructure
-                      and thinking, Black Swan engaged with a number of
-                      resource-pledging silent stakeholders to explore new ways
-                      of supporting the creation of artistic works.
-                    </p>
                     <p className="body-1">
                       Special thanks to{" "}
                       <span>
@@ -450,7 +448,6 @@ function CC0() {
         </div>
 
         <div className="cc0-right-panel">
-
           <h3 className="header-quote">
             No one knows everything, everyone knows something, and all knowledge
             resides in humanity… New communications systems should provide
@@ -522,7 +519,7 @@ function CC0() {
                 <div
                   style={{
                     marginLeft: "1%",
-                    marginTop: "6%",
+                    marginTop: "5%",
                     marginRight: "0",
                     marginBottom: "1%",
                   }}
@@ -531,21 +528,24 @@ function CC0() {
                     src="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5406 1.jpg"
                     alt="image2"
                     className="image"
+                    
                   />
                   <p className="text-images">Instrument 2: The Pendulum</p>
                 </div>
                 <div
                   style={{
                     marginLeft: "1%",
-                    marginTop: "6%",
+                    marginTop: "5%",
                     marginRight: "0",
                     marginBottom: "1%",
+                    
                   }}
                 >
                   <img
                     src="https://miguellacorte.github.io/PAL_Website_2023/images/booklets.jpg"
                     alt="image3"
                     className="image"
+                    
                   />
                   <p className="text-images">Installation Booklet</p>
                 </div>
@@ -554,9 +554,10 @@ function CC0() {
               <div
                 style={{
                   marginLeft: "1%",
-                  marginTop: "6%",
+                  marginTop: "5%",
                   marginRight: "0",
                   marginBottom: "1%",
+                  
                 }}
               >
                 <img
@@ -565,7 +566,7 @@ function CC0() {
                   className="image"
                 />
                 <p className="text-images">
-                  "The Forum" Panels and "The Bells" visualisation (purple
+                  "The Forum" Panels and "The Pulse" visualisation (purple
                   figure in translucent curtain). Photo by Jamie Rosenberg
                 </p>
               </div>
