@@ -6,7 +6,7 @@ export default function About() {
     <div className="about-container">
       <div className="body-1">
         <h1>Introducing PAL</h1>
-        <h3>The context</h3>
+        <h3 style={{marginTop:"5%"}}>The context</h3>
         <p>
           There is an inevitable urgency in re-defining our infrastructure of
           communication. Our models of connection and forms of culture
@@ -23,19 +23,19 @@ export default function About() {
           rather than by unique meanings.
         </p>
         <p>
-          In a time where we are facing the consequences of systematic
-          extraction and control over our environments, we will not be able to
+          Beyond our current deficient cultural practices, today we are facing the consequences of systematic
+          extraction and control over our environments. We will not be able to
           reverse these issues until we fundamentally start to understand
           creation as a open and variable activity that is subject to change, as
           a system adaptable to the embedded chaos in nature.
         </p>
-        <p> - </p>
         <p>
           We will not be able to reverse these issues until we create new
           infrastructure of communication where creation is conceived as a
           cooperative act and an open system where, parallel to nature, it can
           be subject to change and apatations.
         </p>
+        <p> - </p>
         <p>
           Today, the production of media is universal. The development of new
           infrastructure for music interaction on the web on top of the
@@ -43,12 +43,12 @@ export default function About() {
           public access to the core sensorial experiences and creative processes
           which define our cultural essence. By granting the public power and
           control over the creative process, we can build a new conception of
-          creation as an open system, where cooperation and adaptation take
-          center stage rather than fixation and repetition.
+          creation as an open system where cooperation and adaptation take
+          center stage, rather than fixation and repetition.
         </p>
         <p>
           It is in this context where the Participative Audio Lab (PAL) is
-          created, in the midst of a culture of closed creative control. PAL is
+          created. In the midst of a culture of closed creative control, PAL is
           an initiative aimed at harvesting a culture of open creation through
           the development of tools for participative music distribution.{" "}
         </p>
@@ -73,7 +73,7 @@ export default function About() {
               underlying conditions of connection. It is no coincidence that it
               should be treated as the universal medium of collective creation.
               Its non-material quality allows it an immediate expansive action,
-              capable of speaking a universal language; the language of the
+              capable of speaking a universal language: the language of the
               soul.{" "}
             </p>
           </div>

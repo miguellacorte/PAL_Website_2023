@@ -293,11 +293,7 @@ function CC0() {
 
                   <p>
                     Evoking tools and systems of social organization, 3
-                    instruments were carefully composed to generate its own laws
-                    of action: “The Forum, Pendulum, Pulse and Buffer Zone”. On
-                    top of that, to embody a collective system of care “Memory”
-                    was built through p2p architecture to mirror and register
-                    the live composition.
+                    instruments were carefully composed: “The Forum, Pendulum and Pulse”. 
                   </p>
                 </div>
               </Collapsible>

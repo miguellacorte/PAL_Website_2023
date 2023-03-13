@@ -6,26 +6,32 @@
   font-family: "Whyte Inktrap Mono";
   font-style: normal;
   font-weight: 700;
-  font-size: 1.3vw;
-  line-height: 2vw;
+  font-size: 1vw;
+  line-height: 1.7vw;
   color: #fefefe;
 }
 
 .about-container {
-  margin-right: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 2%;
-  margin-left: 5%;
   margin-bottom: 5%;
 }
 
 .culturalImage {
-  width: 30vw;
+  margin-top: 3%;
+  width: 25vw;
 }
 
 .body-1 h1 {
   font-family: "gravityWide", sans-serif;
   font-size: 4vw;
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 5%;
 }
 
 .body-1-vision {
@@ -36,16 +42,18 @@
   font-family: "Whyte Inktrap Mono";
   font-style: normal;
   font-weight: 700;
-  font-size: 1.3vw;
-  line-height: 2vw;
+  font-size: 1.1vw;
+  line-height: 1.7vw;
   color: #fefefe;
 }
 
 .downloadVisGuide {
-  margin-top: 5%;
+  margin-top: 8%;
   color: #fefefe;
   font-family: "Gravity variable normal";
   font-size: 3vw;
+  line-height: 4vw;
+  text-align: center;
 }
 
 .quote {
@@ -70,7 +78,6 @@ h5 {
   font-size: 1.5vw;
   text-align: center;
 }
-
 
 @media (max-width: 890px) {
   .about-container {
@@ -140,10 +147,11 @@ h5 {
   }
 
   .downloadVisGuide {
-    margin-top: 5%;
+    margin-top: 10%;
     color: #fefefe;
     font-family: "Gravity variable normal";
     font-size: 3vw;
+    line-height: 4vw;
+    text-align: center;
   }
- 
 }
