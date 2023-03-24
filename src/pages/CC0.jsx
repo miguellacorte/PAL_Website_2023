@@ -317,10 +317,10 @@ function CC0() {
                           style={{ color: "white" }}
                           href="https://factoryberlin.com/about/"
                         >
-                          Factory Berlin{" "}
+                          Factory Berlin
                         </a>
                       </span>
-                      for granting thee working spacespace.
+                      for granting the working spacespace.
                     </p>
 
                     <p className="body-1">
