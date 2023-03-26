@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import "../styles/CC0.css";
 import Collapsible from "../components/Collapsible";
 
+import Fancybox from "../components/Fancybox";
+
 function CC0() {
   const canvasRef = useRef(null);
   return (
@@ -73,7 +75,7 @@ function CC0() {
                   »Prototyping Sonic Institutions«
                 </a>{" "}
               </span>
-              organised by Black Swan and CTM Festival 2022. 
+              organised by Black Swan and CTM Festival 2022.
             </p>
           </div>
 
@@ -293,7 +295,8 @@ function CC0() {
 
                   <p>
                     Evoking tools and systems of social organization, 3
-                    instruments were carefully composed: “The Forum, Pendulum and Pulse”. 
+                    instruments were carefully composed: “The Forum, Pendulum
+                    and Pulse”.
                   </p>
                 </div>
               </Collapsible>
@@ -455,131 +458,94 @@ function CC0() {
             Collective Intelligence — Pierre Lévy, 1994
           </p>
           <div className="container">
-            <div className="images">
-              <div
-                style={{
-                  marginLeft: "1%",
-                  marginTop: "5%",
-                  marginRight: "0",
-                  marginBottom: "1%",
-                }}
-              >
-                <img
-                  src="https://miguellacorte.github.io/PAL_Website_2023/images/panels_hau.jpg"
-                  alt="image1"
-                  className="image"
-                />
-                <p className="text-images">
-                  "The Forum" panels. Photo by Jamie Rosenberg
-                </p>
-              </div>
+            <Fancybox
+              options={{
+                Carousel: {
+                  infinite: false,
+                },
+              }}
+            >
+              <div className="fancybox">
+                <a
+                  data-fancybox="gallery"
+                  href="https://miguellacorte.github.io/PAL_Website_2023/images/panels_hau.jpg"
+                  data-caption=" 'The Forum' panels. Photo by Jamie Rosenberg"
+                >
+                  <img
+                    src="https://miguellacorte.github.io/PAL_Website_2023/images/panels_hau.jpg"
+                    width="100%"
+                  />
+                </a>
 
-              <div style={{ display: "flex" }}>
-                <div
-                  style={{
-                    marginLeft: "1%",
-                    marginTop: "1%",
-                    marginRight: "0",
-                    marginBottom: "1%",
-                  }}
+                <a
+                  data-fancybox="gallery"
+                  href="https://miguellacorte.github.io/PAL_Website_2023/images/panel_stratos.jpg"
+                  data-caption="Panel close-up. Photo by Stratos Bichakis"
                 >
                   <img
                     src="https://miguellacorte.github.io/PAL_Website_2023/images/panel_stratos.jpg"
-                    alt="image2"
-                    className="image"
+                    width="55%"
                   />
-                  <p className="text-images">
-                    Panel close-up. Photo by Stratos Bichakis
-                  </p>
-                </div>
-                <div
-                  style={{
-                    marginLeft: "1%",
-                    marginTop: "1%",
-                    marginRight: "0",
-                    marginBottom: "1%",
-                  }}
-                >
-                  <img
-                    src="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5225 1.jpg"
-                    alt="image3"
-                    className="image"
-                  />
-                  <p className="text-images">
-                    "The Forum" participants. Photo by Stratos Bichakis
-                  </p>
-                </div>
-              </div>
+                </a>
 
-              <div style={{ display: "flex" }}>
-                <div
-                  style={{
-                    marginLeft: "1%",
-                    marginTop: "5%",
-                    marginRight: "0",
-                    marginBottom: "1%",
-                  }}
+                <a
+                  data-fancybox="gallery"
+                  href="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5406 1.jpg"
+                  data-caption="Instrument 2: The Pendulum"
                 >
                   <img
                     src="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5406 1.jpg"
-                    alt="image2"
-                    className="image"
+                    width="40%"
+                  />
+                </a>
+
+                <a
+                  data-fancybox="gallery"
+                  href="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5225 1.jpg"
+                  data-caption=""
+                >
+                  <img
+                    src="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5225 1.jpg"
+                    width="55%"
                     
                   />
-                  <p className="text-images">Instrument 2: The Pendulum</p>
-                </div>
-                <div
-                  style={{
-                    marginLeft: "1%",
-                    marginTop: "5%",
-                    marginRight: "0",
-                    marginBottom: "1%",
-                    
-                  }}
+                </a>
+
+                <a
+                  data-fancybox="gallery"
+                  href="https://miguellacorte.github.io/PAL_Website_2023/images/booklets.jpg"
+                  data-caption="Installation booklet"
                 >
                   <img
                     src="https://miguellacorte.github.io/PAL_Website_2023/images/booklets.jpg"
-                    alt="image3"
-                    className="image"
-                    
+                    width="40%"
                   />
-                  <p className="text-images">Installation Booklet</p>
-                </div>
-              </div>
+                </a>
 
-              <div
-                style={{
-                  marginLeft: "1%",
-                  marginTop: "5%",
-                  marginRight: "0",
-                  marginBottom: "1%",
-                  
-                }}
-              >
-                <img
-                  src="https://miguellacorte.github.io/PAL_Website_2023/images/panels_hau_2.jpg"
-                  alt="image1"
-                  className="image"
-                />
-                <p className="text-images">
-                  "The Forum" Panels and "The Pulse" visualisation (purple
-                  figure in translucent curtain). Photo by Jamie Rosenberg
-                </p>
-              </div>
+                <a
+                  data-fancybox="gallery"
+                  href="https://miguellacorte.github.io/PAL_Website_2023/images/panels_hau_2.jpg"
+                  data-caption="The Forum, Panels and The Pulse visualisation (purple
+                  figure in translucent curtain). Photo by Jamie Rosenberg"
+                >
+                  <img
+                    src="https://miguellacorte.github.io/PAL_Website_2023/images/panels_hau_2.jpg"
+                    width="100%"
+                  />
+                </a>
 
-              <div>
-                <img
-                  src="https://miguellacorte.github.io/PAL_Website_2023/images/pendulum_1.jpg"
-                  alt="image1"
-                  className="image"
-                />
-                <p className="text-images">
-                  The Pendulum. Photo by Jamie Rosenberg
-                </p>
+                <a
+                  data-fancybox="gallery"
+                  href="https://miguellacorte.github.io/PAL_Website_2023/images/pendulum_1.jpg"
+                  data-caption="The Pendulum. Photo by Jamie Rosenberg"
+                >
+                  <img
+                    src="https://miguellacorte.github.io/PAL_Website_2023/images/pendulum_1.jpg"
+                    width="100%"
+                  />
+                </a>
               </div>
-
-              <div className="image"></div>
-            </div>
+            </Fancybox>
           </div>
         </div>
       </div>

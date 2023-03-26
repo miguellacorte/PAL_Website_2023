@@ -11,9 +11,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.12",
     "p5": "^1.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^6.8.1"
   },
   "devDependencies": {

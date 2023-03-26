@@ -173,6 +173,10 @@
   align-items: center;
 }
 
+.fancybox img {
+margin: 0.5vw ;
+}
+
 .image-ctm {
   width: 8vw;
   display: block;
@@ -569,9 +573,10 @@
   }
 
   .image {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+
   }
+
 
   .text-images {
     font-size: 1.5vw;
