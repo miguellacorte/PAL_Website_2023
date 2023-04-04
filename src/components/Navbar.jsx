@@ -5,9 +5,14 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 export default function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [linkClicked, setLinkClicked] = useState(false);
 
   function handleToggle() {
     setIsOpen(!isOpen);
+  }
+
+  function handleLinkClick() {
+    setLinkClicked(true);
   }
 
   useEffect(() => {
@@ -20,7 +25,12 @@ export default function Navbar() {
   }, []);
 
   return isMobile ? (
-    <MobileNavbar isOpen={isOpen} onToggle={handleToggle} />
+    <MobileNavbar
+      isOpen={isOpen}
+      onToggle={handleToggle}
+      onLinkClick={handleLinkClick}
+      linkClicked={linkClicked}
+    />
   ) : (
     <DesktopNavbar />
   );
@@ -62,10 +72,18 @@ function MobileNavbar({ isOpen, onToggle }) {
 
       <nav className={`mobile-nav ${isOpen ? "open" : ""}`}>
         <ul>
-          <CustomLink to="/">Home</CustomLink>
-          <CustomLink to="/about">About</CustomLink>
-          <CustomLink to="/contact">Contact</CustomLink>
-          <CustomLink to="/CC0">CC0 (CTM festival 2023)</CustomLink>
+          <CustomLink to="/" onClose={onToggle}>
+            Home
+          </CustomLink>
+          <CustomLink to="/about" onClose={onToggle}>
+            About
+          </CustomLink>
+          <CustomLink to="/contact" onClose={onToggle}>
+            Contact
+          </CustomLink>
+          <CustomLink to="/CC0" onClose={onToggle}>
+            CC0 (CTM festival 2023)
+          </CustomLink>
         </ul>
       </nav>
     </div>
@@ -75,10 +93,15 @@ function MobileNavbar({ isOpen, onToggle }) {
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to);
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  const handleClose = () => {
+    const mobileNav = document.querySelector(".mobile-nav");
+    mobileNav.classList.remove("open");
+    props.onClose(); // call the onToggle function to close the navbar
+  };
 
   return (
     <li className={isActive ? "active" : ""}>
-      <Link to={to} {...props}>
+      <Link to={to} onClick={handleClose} {...props}>
         {children}
       </Link>
     </li>
