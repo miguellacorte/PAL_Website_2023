@@ -103,7 +103,7 @@ function CustomLink({ to, children, ...props }) {
 
   return (
     <li className={isActive ? "active" : ""}>
-      <Link to={to} onClick={handleClose} {...props}>
+      <Link to={to}  {...props}>
         {children}
       </Link>
     </li>
