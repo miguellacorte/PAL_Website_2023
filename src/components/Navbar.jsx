@@ -99,11 +99,7 @@ function MobileNavbar({ isOpen, onToggle }) {
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to);
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
-  const handleClose = () => {
-    const mobileNav = document.querySelector(".mobile-nav");
-    mobileNav.classList.remove("open");
-    props.onClose(); // call the onToggle function to close the navbar
-  };
+ 
 
   return (
     <li className={isActive ? "active" : ""}>
