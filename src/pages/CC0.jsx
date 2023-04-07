@@ -502,7 +502,7 @@ function CC0() {
                 <a
                   data-fancybox="gallery"
                   href="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5225 1.jpg"
-                  data-caption=""
+                  data-caption=" 'The Forum' Panels being utilized by the public "
                 >
                   <img
                     src="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5225 1.jpg"

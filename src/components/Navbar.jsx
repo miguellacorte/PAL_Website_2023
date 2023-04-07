@@ -57,6 +57,12 @@ function DesktopNavbar() {
 }
 
 function MobileNavbar({ isOpen, onToggle }) {
+  const handleClose = () => {
+    const mobileNav = document.querySelector(".mobile-nav");
+    mobileNav.classList.remove("open");
+    onToggle(); // call the onToggle function to close the navbar
+  };
+
   return (
     <div>
       <button className="hamburger" onClick={onToggle}>
@@ -72,16 +78,16 @@ function MobileNavbar({ isOpen, onToggle }) {
 
       <nav className={`mobile-nav ${isOpen ? "open" : ""}`}>
         <ul>
-          <CustomLink to="/" onClose={onToggle}>
+          <CustomLink to="/" onClose={handleClose}>
             Home
           </CustomLink>
-          <CustomLink to="/about" onClose={onToggle}>
+          <CustomLink to="/about" onClose={handleClose}>
             About
           </CustomLink>
-          <CustomLink to="/contact" onClose={onToggle}>
+          <CustomLink to="/contact" onClose={handleClose}>
             Contact
           </CustomLink>
-          <CustomLink to="/CC0" onClose={onToggle}>
+          <CustomLink to="/CC0" onClose={handleClose}>
             CC0 (CTM festival 2023)
           </CustomLink>
         </ul>
