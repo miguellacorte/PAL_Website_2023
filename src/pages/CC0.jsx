@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import "../styles/CC0.css";
 import Collapsible from "../components/Collapsible";
-
 import Fancybox from "../components/Fancybox";
+// import Sphere from "../components/Sphere";
 
 function CC0() {
   const canvasRef = useRef(null);
@@ -11,24 +11,22 @@ function CC0() {
       <div className="cc0-container">
         <div className="cc0-left-intro">
           <div className="header">
-            <img
+            {/* <img
               src="https://miguellacorte.github.io/PAL_Website_2023/images/cc0.png"
               alt="Image Description"
               className="CC0-logo"
-            />
-
-            <div>
-              <span className="CC0-title-1">CC0 (Collective Control 0) </span>
-              <span className="CC0-title-2">
-                Live Participative Music Installation at CTM festival 2023
-              </span>
-            </div>
+            /> */}
+            <span className="CC0-title-1">CC0 (Collective Control 0) </span>
+            <span className="CC0-title-2">
+              Live Participative Music Installation at CTM festival 2023
+            </span>
+            
           </div>
 
           <div className="intro-container">
             <p className="body-1">
               Marking the inauguration of the Participative Audio Lab,
-              <span>CC0 (Collective Control 0) </span>
+              <span> {""}CC0 (Collective Control 0) </span>
               is a system for live collective composition consisting of three
               different instruments:
               <span> “The Forum, Pendulum, and Pulse”. </span>
@@ -217,22 +215,19 @@ function CC0() {
                     {" "}
                     Black Swan is a Berlin-based collective experimenting in
                     horizontal and decentralised, infrastructure and governance.
-                    Challenging conventional decision-making and resource
-                    allocation models in the arts and culture sectors, Black
-                    Swan facilitates the development of new artist-led models of
-                    communal support, collaboration, and governance. Through
-                    democratising access to resources and funds – as evidenced
-                    in experiments led at Berlin’s Trust and KW Institute in
-                    2021 – Black Swan is actively developing a more equitable
-                    and democratic cultural ecosystem.
+                    Through democratising access to resources and funds – as
+                    evidenced in experiments led at Berlin’s Trust and KW
+                    Institute in 2021 – Black Swan is actively developing a more
+                    equitable and democratic cultural ecosystem.
                   </p>
                   <p>
-                    Within May 2022, a number of resources were pledged by
-                    various partners, to allow for the realisation of a
-                    music/sound related project. Participants selected via open
-                    call then proposed their own project ideas to the group, or
-                    simply indicated a wish to experiment in collective
-                    decision-making.
+                    Within May 2022, Black Swan hosted a workshop in
+                    collaboration with CTM where a number of resources were
+                    pledged by various partners, to allow for the realisation of
+                    a music/sound related project. Participants selected via
+                    open call then proposed their own project ideas to the
+                    group, or simply indicated a wish to experiment in
+                    collective decision-making.
                   </p>
                   <p>
                     Using Black Swans’s digital toolkit, including a quadratic
@@ -302,35 +297,17 @@ function CC0() {
               </Collapsible>
               <hr />
 
-              <Collapsible title="events/recordings archive"></Collapsible>
-              <hr />
+              {/* <Collapsible title="events/recordings archive"></Collapsible>
+              <hr /> */}
 
-              <Collapsible title="texts"></Collapsible>
-              <hr />
+              {/* <Collapsible title="texts"></Collapsible>
+              <hr /> */}
 
               <Collapsible title="credits">
                 <div>
                   <div className="lastParagraph"></div>
 
                   <div style={{ marginLeft: "2%", marginTop: "5%" }}>
-                    <p className="body-1">
-                      Special thanks to{" "}
-                      <span>
-                        <a
-                          style={{ color: "white" }}
-                          href="https://factoryberlin.com/about/"
-                        >
-                          Factory Berlin
-                        </a>
-                      </span>
-                      for granting the working spacespace.
-                    </p>
-
-                    <p className="body-1">
-                      Special thanks to Haywirez for server infrastructure.
-                    </p>
-
-                    <hr />
                     <div>
                       <article>
                         <p className="body-1">
@@ -436,6 +413,23 @@ function CC0() {
                           <span>Web development assistance</span>: Parrr Geng
                           &amp; Carolina Acuña
                         </p>
+                        <br />
+                        <p className="body-1">
+                          Special thanks to{" "}
+                          <span>
+                            <a
+                              style={{ color: "white" }}
+                              href="https://factoryberlin.com/about/"
+                            >
+                              Factory Berlin
+                            </a>
+                          </span>{" "}
+                          for granting the working spacespace.
+                        </p>
+
+                        <p className="body-1">
+                          Special thanks to Haywirez for server infrastructure.
+                        </p>
                       </article>
                     </div>
                   </div>
@@ -447,6 +441,7 @@ function CC0() {
         </div>
 
         <div className="cc0-right-panel">
+          {/* <Sphere /> */}
           <h3 className="header-quote">
             No one knows everything, everyone knows something, and all knowledge
             resides in humanity… New communications systems should provide
@@ -507,7 +502,6 @@ function CC0() {
                   <img
                     src="https://miguellacorte.github.io/PAL_Website_2023/images/IMG_5225 1.jpg"
                     width="55%"
-                    
                   />
                 </a>
 

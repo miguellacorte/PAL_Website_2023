@@ -14,7 +14,8 @@ const Collapsible = ({ children, title }) => {
         <div className="dropdown-title">
           {title}
         </div>
-        <span className={`arrow-icon ${open ? "open" : "closed"}`}>&gt;</span>
+        <div><span className={`arrow-icon ${open ? "open" : "closed"}`}>&gt;</span></div>
+        
       </button>
       {open && <div className="content">{children}</div>}
     </div>

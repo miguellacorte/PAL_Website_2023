@@ -41,9 +41,10 @@ body {
   width: 5%;
 }
 
-.inline-arrow {
+.inline-arrow_home {
   display: inline-block;
-  width: 5%;
+  width: 3%;
+  margin-left: 1.5%;
 }
 
 .inline-image img {
@@ -114,7 +115,7 @@ a {
     margin-left: 2%;
   }
 
-  .inline-arrow {
+  .inline-arrow_home {
     display: inline-block;
     width: 4% !important;
   }

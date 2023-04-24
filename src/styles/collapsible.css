@@ -16,7 +16,7 @@
   cursor: pointer;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   z-index: 10001;
 }
 
@@ -24,12 +24,13 @@
   font-family: "gravityWide", sans-serif;
   font-size: 2.5vw;
   text-align: left;
+  margin-right: 50vw-10vw;
 }
 
 .arrow-icon {
   display: inline-block;
   margin-top: 0px;
-  margin-left: 6vw;
+  margin-left: 100%;
   margin-right: 5px;
   font-size: 3vw;
   transition: transform 0.2s ease-in-out;

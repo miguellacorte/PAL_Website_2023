@@ -81,15 +81,19 @@ function MobileNavbar({ isOpen, onToggle }) {
           <CustomLink to="/" onClose={handleClose}>
             Home
           </CustomLink>
+          <div></div>
           <CustomLink to="/about" onClose={handleClose}>
             About
           </CustomLink>
+          <div></div>
           <CustomLink to="/contact" onClose={handleClose}>
             Contact
           </CustomLink>
-          <CustomLink to="/CC0" onClose={handleClose}>
-            CC0 (CTM festival 2023)
+          <div></div>
+          <CustomLink className="cc0Dot" to="/CC0" onClose={handleClose}>
+            <span style={{fontSize:" 0.2em", marginRight: "0.5em"}}></span> CC0 (CTM festival 2023)
           </CustomLink>
+          <div></div>
         </ul>
       </nav>
     </div>
@@ -99,11 +103,10 @@ function MobileNavbar({ isOpen, onToggle }) {
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to);
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
- 
 
   return (
     <li className={isActive ? "active" : ""}>
-      <Link to={to}  {...props}>
+      <Link to={to} {...props}>
         {children}
       </Link>
     </li>

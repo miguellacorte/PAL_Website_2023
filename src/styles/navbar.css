@@ -12,31 +12,32 @@ body {
 }
 
 .navbarRight div {
-  display: inline-flex; 
-  align-items: center; 
+  display: inline-flex;
+  align-items: center;
 }
 
 .navbarRight p {
   font-family: sans-serif;
+  color: rgb(255, 255, 255);
   font-size: 0.75vw;
-  margin-right: 01% ; 
-  margin-left: 0% ; 
+  margin-right: 01%;
+  margin-left: 0%;
 }
 
 .navbarRight::before {
-  content: ""; 
+  content: "";
   display: inline-block;
-  width: 0.5vw; 
-  height: 0.5vw; 
-  border-radius: 50%; 
-  background-color: red; 
-  margin-right: 0.25em; 
+  width: 0.5vw;
+  height: 0.5vw;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 0.25em;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(247, 247, 247);
+  background-color: rgba(247, 247, 247, 0);
   color: rgb(0, 0, 0);
   height: 40px;
   padding: 0 0px;
@@ -51,7 +52,15 @@ body {
   justify-content: flex-end;
 }
 
-.navbarLeft{
+.mobile-nav ul div {
+  /* height: 1px;
+  border-radius: 2px; */
+  border-bottom-style: dotted;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+.navbarLeft {
   display: flex;
 }
 
@@ -78,9 +87,9 @@ body {
 
 .nav a {
   font-family: "MyCustomFont", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   text-decoration: none;
-  color: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: normal;
   padding: 10px 15px;
@@ -92,51 +101,50 @@ body {
 
 /* MOBILE NAVBAR BELOW */
 
+.mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+}
+
 .mobile-nav {
   position: fixed;
   top: 0;
   right: 0;
- 
   bottom: 50px;
   background-color: black;
   width: 75%;
   height: 100%;
-  padding: 1rem;
   transform: translateX(100%);
   transition: transform 0.17s ease-in-out;
-  font-family: "MyCustomFont"; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18vw;
-  text-decoration: none;
-  text-align: center;
-  text-decoration: none;
-  font-weight: normal;
-  z-index: 999; 
-  
+  z-index: 999;
 }
 
 .mobile-nav.open {
   position: fixed;
   background-color: rgb(0, 0, 0);
   width: 75%;
-  padding: 1rem;
   transform: translateX(0);
   transition: transform 0.17s ease-in-out;
-  font-family: "MyCustomFont", sans-serif; 
+  font-family: "MyCustomFont", sans-serif;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  font-size: 18vw;
+  font-size: 7vw;
+  margin-left: 0;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   font-weight: normal;
-  z-index: 999999; 
+  z-index: 999999;
 }
 
-
+.mobile-nav ul {
+  margin-top: 20%;
+  width: 90%;
+}
 
 .mobile-nav a {
   font-family: "MyCustomFont", sans-serif;
@@ -144,7 +152,13 @@ body {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: normal;
-  padding: 10px 15px;
+  margin: 0;
+}
+.cc0Dot {
+  display: flex;
+  align-items: center;
+  
+
 }
 
 .mobile-nav a:hover {
@@ -153,12 +167,6 @@ body {
 
 .mobile-nav a.active {
   color: rgb(221, 0, 0);
-}
-
-.mobile-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .hamburger.open span:first-child {
@@ -174,7 +182,10 @@ body {
 }
 
 .mobile-nav li {
-  margin: 3rem ;
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1rem;
 }
 
 .mobile-nav li:last-child {
@@ -231,18 +242,19 @@ body {
   position: fixed;
   top: 0.5rem;
   left: 26vw;
-  color: black;
-  font-size:2rem;
+
+  font-size: 2rem;
   cursor: pointer;
   margin-right: auto;
   width: 2rem;
   height: 2rem;
-  color: aliceblue;
+  font-family: "MyCustomFont", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
   background-color: transparent;
   border: none;
   cursor: pointer;
   outline: none;
   z-index: 1000000;
 }
-
-

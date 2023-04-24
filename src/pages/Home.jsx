@@ -35,7 +35,7 @@ export default function Home() {
           </span>
           <span>
             <img
-              className="inline-arrow"
+              className="inline-arrow_home"
               src="https://participativeaudiolab.com/images/Arrow 9.png"
               alt="inline arrow"
             />
