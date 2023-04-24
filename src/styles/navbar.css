@@ -210,8 +210,9 @@ body {
 
 .hamburger span {
   display: block;
+  border-bottom-style: dotted;
   background-color: white;
-  height: 3px;
+  height: 1.5px;
   width: 1.3rem;
   transition: transform 0.2s ease-in-out;
 }
