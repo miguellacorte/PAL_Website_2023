@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>404 Page Not Found</title>
-    <meta http-equiv="refresh" content="0; url=https://www.participativeaudiolab.com/">
   </head>
   <body>
     <h1>404 Page Not Found</h1>
-    <p>The page you were looking for could not be found. You will be automatically redirected to the home page.</p>
+    <p>The page you were looking for could not be found. You will be automatically redirected.</p>
+    <script>
+      var path = location.pathname;
+      location.replace("https://www.participativeaudiolab.com" + path);
+    </script>
   </body>
 </html>
