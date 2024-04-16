@@ -33,7 +33,7 @@ export default function About() {
           We will not be able to reverse these issues until we create new
           infrastructure of communication where creation is conceived as a
           cooperative act and an open system where, parallel to nature, it can
-          be subject to change and apatations.
+          be subject to change and adaptations.
         </p>
         <p> - </p>
         <p>
